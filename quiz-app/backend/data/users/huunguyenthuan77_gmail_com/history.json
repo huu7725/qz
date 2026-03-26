@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "date": "25/03/2026 12:15",
+    "score": 0,
+    "total": 20,
+    "percent": 0,
+    "time_taken": 7,
+    "file_id": "all",
+    "wrong_questions": [
+      "Đột biến gen lặn sẽ biểu hiện trên kiểu hình",
+      "Trong công nghệ gen, kĩ thuật gắn gen cần chuyển vào thể tru",
+      "Sự thay đổi số lượng nhiễm sắc thể chỉ liên quan đến một hay",
+      "Một bộ ba mã hoá chỉ mã hoá cho một loại axit amin, điều này",
+      "Cơ sở tế bào học của trao đổi đoạn nhiễm sắc thể là"
+    ]
+  },
+  {
+    "id": 2,
+    "date": "25/03/2026 12:15",
+    "score": 1,
+    "total": 20,
+    "percent": 5,
+    "time_taken": 14,
+    "file_id": "all",
+    "wrong_questions": [
+      "Ở một loài thực vật, gen A qui định quả đỏ trội hoàn toàn so",
+      "Gen đa hiệu là hiện tượng",
+      "Hai nhà khoa học người Pháp đã phát hiện ra cơ chế điều hoà ",
+      "Khi nào thì cụm gen cấu trúc Z, Y, A trong opêron Lac ở E. c",
+      "Mối quan hệ quan trọng nhất đảm bảo tính gắn bó giữa các loà"
+    ]
+  },
+  {
+    "id": 3,
+    "date": "25/03/2026 12:51",
+    "score": 2,
+    "total": 30,
+    "percent": 7,
+    "time_taken": 23,
+    "file_id": "trac-nghiem-ly-thuyet-sinh-12",
+    "wrong_questions": [
+      "Đột biến cấu trúc nhiễm sắc thể thường gây chết hoặc giảm sứ",
+      "Cho chuỗi thức ăn: Tảo lục đơn bào → Tôm → Cá rô → Chim bói ",
+      "Với 2 alen A và a, bắt đầu bằng một cá thể có kiểu gen Aa, ở",
+      "Một quần thể thực vật ban đầu có thành phần kiểu gen là  7 A",
+      "Trên mạch tổng hợp ARN của gen, enzim ARN polimeraza đã di c"
+    ]
+  },
+  {
+    "id": 4,
+    "date": "26/03/2026 10:24",
+    "score": 2,
+    "total": 10,
+    "percent": 20,
+    "time_taken": 13,
+    "file_id": "thuvienhoclieu_com-Trac-nghiem-VDC-Lich-su-On-Thi-",
+    "wrong_questions": [
+      "Trong xu thế phát triển của thế giới sau Chiến tranh lạnh, V",
+      "Thắng lợi tạo ra bước \"đột phá\" góp phần làm xói mòn trật tự",
+      "Tình hình nước Nga sau Cách mạng tháng Mười năm 1917 và tình",
+      "Trong xu thế hòa bình ổn định, hợp tác và phát triển, Việt N",
+      "Bài học từ việc kí kết Hiệp định Sơ bộ (1946), Giơnevơ (1954"
+    ]
+  },
+  {
+    "id": 5,
+    "date": "26/03/2026 10:35",
+    "score": 0,
+    "total": 10,
+    "percent": 0,
+    "time_taken": 6,
+    "file_id": "trac-nghiem-ly-thuyet-sinh-12",
+    "wrong_questions": [
+      "Những tính trạng có mức phản ứng hẹp thường là những tính tr",
+      "cônsixin thường được dùng để gây đột biến đa bội ở thực vật,",
+      "Quan hệ giữa gen và tính trạng theo quan niệm Di truyền học ",
+      "Khi cho giao phấn 2 thứ đậu thơm thuần chủng hoa đỏ thẩm và ",
+      "Trong các nhân tố tiến hoá, nhân tố làm thay đổi tần số alen"
+    ]
+  }
+]

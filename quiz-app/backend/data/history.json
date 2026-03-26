@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "date": "23/03/2026 16:56",
+    "score": 0,
+    "total": 10,
+    "percent": 0,
+    "time_taken": 2,
+    "wrong_questions": [
+      "Cho tứ diện. Gọi  lần lượt là trung điểm của các cạnh.",
+      "Phương trình nào sau đây vô nghiệm?",
+      "Cho hình chóp tứ giác , gọi  là giao điểm của hai đường chéo",
+      "Cho tam giác ABC có G là trọng tâm, phép tịnh tiến  biến tam",
+      "Trong các mệnh đề sau. Mệnh đề sai là:"
+    ]
+  },
+  {
+    "id": 2,
+    "date": "23/03/2026 16:56",
+    "score": 0,
+    "total": 10,
+    "percent": 0,
+    "time_taken": 2,
+    "wrong_questions": [
+      "Trong các mệnh đề sau. Mệnh đề sai là:",
+      "Tìm tập xác định  của hàm số  là :",
+      "Trong các mệnh đề sau, mệnh đề nào đúng?",
+      "Nghiệm của phương trình  là",
+      "Phương trình nào sau đây vô nghiệm?"
+    ]
+  },
+  {
+    "id": 3,
+    "date": "23/03/2026 16:56",
+    "score": 0,
+    "total": 10,
+    "percent": 0,
+    "time_taken": 2,
+    "wrong_questions": [
+      "Cho hình chóp tứ giác , gọi  là giao điểm của hai đường chéo",
+      "Trong các phương trình sau, phương trình nào nhận   làm nghi",
+      "Trong các dãy số sau đây, dãy số nào không phải là cấp số cộ",
+      "Cho dãy số  với .Số hạng tổng quát  của dãy số là số hạng nà",
+      "Nghiệm của phương trình  là"
+    ]
+  },
+  {
+    "id": 4,
+    "date": "23/03/2026 17:22",
+    "score": 0,
+    "total": 10,
+    "percent": 0,
+    "time_taken": 5,
+    "wrong_questions": [
+      "Cho hình chóp tứ giác , gọi  là giao điểm của hai đường chéo",
+      "Trong mặt phẳng  cho đường tròn  có phương trình . Hỏi phép ",
+      "Phương trình nào sau đây vô nghiệm?",
+      "Các yếu tố nào sau đây xác định một mặt phẳng duy nhất?",
+      "Trong các phương trình sau, phương trình nào nhận   làm nghi"
+    ]
+  },
+  {
+    "id": 5,
+    "date": "23/03/2026 17:26",
+    "score": 1,
+    "total": 5,
+    "percent": 20,
+    "time_taken": 15,
+    "wrong_questions": [
+      "Trong tiến hoá, không chỉ có các alen có lợi được giữ lại mà",
+      "Đặc điểm nào sau đây đúng với hiện tượng di truyền liên kết ",
+      "Trong các loại nuclêôtit tham gia cấu tạo nên ARN không có l",
+      "Khâu nào sau đây đóng vai trò trung tâm trong công nghệ gen?"
+    ]
+  },
+  {
+    "id": 6,
+    "date": "23/03/2026 17:27",
+    "score": 0,
+    "total": 20,
+    "percent": 0,
+    "time_taken": 6,
+    "wrong_questions": [
+      "Trong tự nhiên, khi kích thước của quần thể giảm dưới mức tố",
+      "Sử dụng đột biến nhân tạo hạn chế ở đối tượng nào?",
+      "Trong một hệ sinh thái trên cạn, nhóm sinh vật nào sau đây l",
+      "Đặc điểm nào dưới đây phản ánh sự di truyền qua chất tế bào?",
+      "Trong tế bào sống,prôtêin đóng vai trò quan trọng trong hoạt"
+    ]
+  },
+  {
+    "id": 7,
+    "date": "23/03/2026 18:23",
+    "score": 0,
+    "total": 5,
+    "percent": 0,
+    "time_taken": 5,
+    "wrong_questions": [
+      "Là nhân tố tiến hóa khi nhân tố đó",
+      "Trong quần xã sinh vật, kiểu quan hệ giữa hai loài, trong đó",
+      "Ở người, bệnh mù màu (đỏ và lục) là do đột biến lặn nằm trên",
+      "Trong các loại nuclêôtit tham gia cấu tạo nên ARN không có l",
+      "Ở sinh vật lưỡng bội, các alen trội bị tác động của chọn lọc"
+    ]
+  }
+]

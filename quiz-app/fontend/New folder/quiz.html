@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QuizMaster — Ôn Tập Thông Minh</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #06080f;
+  --s1: #0b0f1a;
+  --s2: #101827;
+  --s3: #1a2640;
+  --border: #1e2d47;
+  --border2: #253650;
+  --accent: #38bdf8;
+  --accent2: #818cf8;
+  --green: #34d399;
+  --red: #f87171;
+  --amber: #fbbf24;
+  --text: #f0f4f8;
+  --muted: #64748b;
+  --muted2: #94a3b8;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden}
+h1,h2,h3,.nav-title{font-family:'Syne',sans-serif}
+
+/* BG */
+.bg-glow{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+.bg-glow::before{content:'';position:absolute;width:600px;height:600px;border-radius:50%;background:radial-gradient(circle,rgba(56,189,248,0.06),transparent 70%);top:-200px;left:-100px}
+.bg-glow::after{content:'';position:absolute;width:500px;height:500px;border-radius:50%;background:radial-gradient(circle,rgba(129,140,248,0.05),transparent 70%);bottom:-150px;right:-100px}
+
+/* NAV */
+nav{position:sticky;top:0;z-index:100;background:rgba(6,8,15,0.85);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);padding:0 24px;display:flex;align-items:center;gap:0;height:56px}
+.nav-title{font-size:18px;font-weight:800;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-right:32px;white-space:nowrap}
+.nav-tabs{display:flex;gap:4px;flex:1}
+.nav-tab{padding:7px 16px;border-radius:8px;border:none;background:transparent;color:var(--muted);font-size:13px;font-weight:600;cursor:pointer;font-family:'DM Sans',sans-serif;transition:all .15s;white-space:nowrap}
+.nav-tab:hover{color:var(--text);background:var(--s2)}
+.nav-tab.active{background:var(--s3);color:var(--accent);border:1px solid var(--border2)}
+
+/* WRAP */
+.wrap{position:relative;z-index:1;max-width:780px;margin:0 auto;padding:32px 16px 80px}
+
+/* CARDS */
+.card{background:var(--s1);border:1px solid var(--border);border-radius:16px;padding:24px;margin-bottom:16px}
+.card-title{font-family:'Syne',sans-serif;font-size:14px;font-weight:700;color:var(--muted2);letter-spacing:.06em;margin-bottom:16px}
+
+/* STATS GRID */
+.stats-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:24px}
+.stat-card{background:var(--s1);border:1px solid var(--border);border-radius:14px;padding:20px;text-align:center}
+.stat-n{font-family:'Syne',sans-serif;font-size:30px;font-weight:800;color:var(--accent)}
+.stat-l{font-size:12px;color:var(--muted);margin-top:4px}
+
+/* UPLOAD ZONE */
+.upload-zone{border:2px dashed var(--border2);border-radius:14px;padding:40px 24px;text-align:center;cursor:pointer;transition:all .2s;background:var(--s1)}
+.upload-zone:hover,.upload-zone.drag{border-color:var(--accent);background:rgba(56,189,248,0.04)}
+.upload-zone.drag{transform:scale(1.01)}
+.upload-icon{font-size:40px;margin-bottom:12px}
+.upload-title{font-family:'Syne',sans-serif;font-size:16px;font-weight:700;margin-bottom:6px}
+.upload-sub{font-size:13px;color:var(--muted)}
+#file-input{display:none}
+.upload-btn{display:inline-block;margin-top:16px;padding:10px 24px;border-radius:10px;background:var(--s3);border:1px solid var(--border2);color:var(--text);font-size:13px;font-weight:600;cursor:pointer;font-family:'DM Sans',sans-serif;transition:all .15s}
+.upload-btn:hover{border-color:var(--accent);color:var(--accent)}
+
+/* PROGRESS */
+.upload-progress{display:none;margin-top:16px}
+.prog-bar{height:4px;background:var(--s3);border-radius:99px;overflow:hidden;margin:8px 0}
+.prog-fill{height:4px;background:linear-gradient(90deg,var(--accent),var(--accent2));border-radius:99px;transition:width .3s;width:0%}
+.prog-text{font-size:12px;color:var(--muted2);text-align:center}
+
+/* RESULT BADGE */
+.upload-result{display:none;margin-top:16px;padding:14px 18px;border-radius:12px;font-size:13px}
+.upload-result.ok{background:rgba(52,211,153,0.1);border:1px solid rgba(52,211,153,0.2);color:var(--green)}
+.upload-result.err{background:rgba(248,113,113,0.1);border:1px solid rgba(248,113,113,0.2);color:var(--red)}
+
+/* NUM SELECT */
+.num-grid{display:flex;gap:10px;flex-wrap:wrap;margin:16px 0 20px}
+.num-btn{padding:10px 20px;border-radius:10px;border:2px solid var(--border);background:var(--s2);color:var(--muted);font-size:14px;font-weight:600;cursor:pointer;font-family:'DM Sans',sans-serif;transition:all .15s}
+.num-btn:hover{border-color:var(--accent);color:var(--text)}
+.num-btn.active{border-color:var(--accent);background:rgba(56,189,248,0.1);color:var(--accent)}
+
+/* START BTN */
+.start-btn{width:100%;padding:15px;border-radius:14px;border:none;background:linear-gradient(135deg,#0ea5e9,#6366f1);color:#fff;font-size:16px;font-weight:700;cursor:pointer;font-family:'Syne',sans-serif;letter-spacing:.3px;transition:all .2s}
+.start-btn:hover:not(:disabled){transform:translateY(-2px);box-shadow:0 8px 28px rgba(14,165,233,0.3)}
+.start-btn:disabled{opacity:.4;cursor:not-allowed;transform:none}
+
+/* QUIZ SCREEN */
+.quiz-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px}
+.q-info{font-size:13px;color:var(--muted)}
+.q-info b{color:var(--text);font-weight:700}
+.timer-pill{padding:6px 16px;border-radius:99px;font-size:15px;font-weight:700;border:1px solid;transition:all .3s}
+.timer-pill.ok{background:rgba(52,211,153,0.1);border-color:rgba(52,211,153,0.25);color:var(--green)}
+.timer-pill.warn{background:rgba(248,113,113,0.1);border-color:rgba(248,113,113,0.25);color:var(--red)}
+.prog-track{height:3px;background:var(--s3);border-radius:99px;margin-bottom:20px}
+.prog-track-fill{height:3px;background:linear-gradient(90deg,var(--accent),var(--accent2));border-radius:99px;transition:width .4s}
+
+/* DOT NAV */
+.dot-wrap{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:20px}
+.dot{width:30px;height:30px;border-radius:8px;border:1.5px solid var(--border);background:var(--s2);color:var(--muted);font-size:11px;font-weight:700;display:flex;align-items:center;justify-content:center;cursor:pointer;transition:all .15s}
+.dot:hover{border-color:var(--border2)}
+.dot.ans{border-color:rgba(56,189,248,0.5);background:rgba(56,189,248,0.1);color:var(--accent)}
+.dot.cur{background:var(--accent);border-color:var(--accent);color:#fff}
+
+/* QUESTION CARD */
+.q-num{font-size:11px;font-weight:700;color:var(--accent);letter-spacing:.1em;margin-bottom:10px}
+.q-text{font-size:17px;font-weight:500;line-height:1.75;margin-bottom:22px}
+.choice{display:flex;align-items:flex-start;gap:14px;width:100%;text-align:left;padding:13px 16px;margin-bottom:9px;border-radius:12px;border:1.5px solid var(--border);background:transparent;color:var(--text);font-size:14px;cursor:pointer;transition:all .15s;font-family:'DM Sans',sans-serif;line-height:1.55}
+.choice:hover:not([disabled]){border-color:var(--border2);background:var(--s2)}
+.c-lbl{min-width:28px;height:28px;border-radius:7px;border:1.5px solid var(--border);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:12px;flex-shrink:0;margin-top:1px;transition:all .15s}
+.choice.sel .c-lbl{background:var(--accent);border-color:var(--accent);color:#06080f}
+.choice.sel{border-color:var(--accent);background:rgba(56,189,248,0.06)}
+.choice.correct{border-color:var(--green);background:rgba(52,211,153,0.07)}
+.choice.correct .c-lbl{background:var(--green);border-color:var(--green);color:#06080f}
+.choice.wrong{border-color:var(--red);background:rgba(248,113,113,0.07)}
+.choice.wrong .c-lbl{background:var(--red);border-color:var(--red);color:#fff}
+.choice[disabled]{cursor:default}
+
+/* NAV ROW */
+.nav-row{display:flex;gap:10px;margin-top:12px;justify-content:space-between}
+.btn-ghost{padding:11px 20px;border-radius:11px;border:1.5px solid var(--border);background:transparent;color:var(--muted2);font-size:13px;font-weight:600;cursor:pointer;font-family:'DM Sans',sans-serif;transition:all .15s}
+.btn-ghost:hover:not([disabled]){border-color:var(--border2);color:var(--text)}
+.btn-ghost[disabled]{opacity:.3;cursor:not-allowed}
+.btn-red{padding:11px 20px;border-radius:11px;border:1.5px solid rgba(248,113,113,0.3);background:rgba(248,113,113,0.08);color:var(--red);font-size:13px;font-weight:600;cursor:pointer;font-family:'DM Sans',sans-serif;transition:all .15s}
+.btn-red:hover{background:rgba(248,113,113,0.15)}
+.btn-green{padding:11px 20px;border-radius:11px;border:none;background:linear-gradient(135deg,var(--green),#059669);color:#06080f;font-size:13px;font-weight:700;cursor:pointer;font-family:'DM Sans',sans-serif}
+
+/* RESULT */
+.result-hero{text-align:center;padding:32px 24px}
+.result-emoji{font-size:52px;margin-bottom:16px}
+.result-pct{font-family:'Syne',sans-serif;font-size:56px;font-weight:800;background:linear-gradient(135deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;line-height:1}
+.result-msg{font-size:16px;color:var(--muted2);margin-top:8px;margin-bottom:24px}
+.result-stats{display:flex;justify-content:center;gap:28px}
+.rs{text-align:center}
+.rs-n{font-family:'Syne',sans-serif;font-size:26px;font-weight:800}
+.rs-l{font-size:11px;color:var(--muted);margin-top:2px}
+
+/* DETAIL */
+.detail{padding:14px 18px;margin-bottom:10px;border-radius:12px;border-left:3px solid;background:var(--s1)}
+.detail.ok{border-color:var(--green)}
+.detail.bad{border-color:var(--red)}
+.detail-q{font-size:14px;line-height:1.6;margin-bottom:6px;display:flex;gap:10px;align-items:flex-start}
+.detail-ans{font-size:12px;color:var(--muted)}
+.tag{display:inline-block;padding:2px 9px;border-radius:99px;font-size:11px;font-weight:700;flex-shrink:0;margin-top:3px}
+.tag.ok{background:rgba(52,211,153,0.15);color:var(--green)}
+.tag.bad{background:rgba(248,113,113,0.15);color:var(--red)}
+
+/* HISTORY */
+.hist-item{display:flex;align-items:center;gap:16px;padding:14px 18px;border-radius:12px;background:var(--s1);border:1px solid var(--border);margin-bottom:10px}
+.hist-pct{font-family:'Syne',sans-serif;font-size:22px;font-weight:800;min-width:56px}
+.hist-info{flex:1}
+.hist-date{font-size:12px;color:var(--muted)}
+.hist-score{font-size:14px;font-weight:600;margin-top:2px}
+.hist-bar{height:4px;background:var(--s3);border-radius:99px;margin-top:6px;max-width:200px}
+.hist-bar-fill{height:4px;border-radius:99px}
+.empty{text-align:center;padding:48px 24px;color:var(--muted);font-size:14px}
+
+/* SECTION HEAD */
+.sec-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px}
+.sec-title{font-family:'Syne',sans-serif;font-size:13px;font-weight:700;color:var(--muted2);letter-spacing:.06em}
+.btn-sm{padding:5px 14px;border-radius:8px;border:1px solid var(--border);background:transparent;color:var(--muted);font-size:12px;cursor:pointer;font-family:'DM Sans',sans-serif;transition:all .15s}
+.btn-sm:hover{color:var(--red);border-color:var(--red)}
+
+/* TOAST */
+.toast{position:fixed;bottom:28px;left:50%;transform:translateX(-50%) translateY(80px);background:var(--s3);border:1px solid var(--border2);border-radius:12px;padding:12px 22px;font-size:13px;font-weight:600;z-index:999;transition:transform .3s;white-space:nowrap}
+.toast.show{transform:translateX(-50%) translateY(0)}
+.toast.ok{border-color:rgba(52,211,153,0.4);color:var(--green)}
+.toast.err{border-color:rgba(248,113,113,0.4);color:var(--red)}
+
+/* ANIM */
+.fade{animation:fadeUp .25s ease}
+@keyframes fadeUp{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+
+/* SCROLLBAR */
+::-webkit-scrollbar{width:5px}
+::-webkit-scrollbar-track{background:var(--s1)}
+::-webkit-scrollbar-thumb{background:var(--s3);border-radius:99px}
+</style>
+</head>
+<body>
+<div class="bg-glow"></div>
+
+<nav>
+  <div class="nav-title">⚡ QuizMaster</div>
+  <div class="nav-tabs">
+    <button class="nav-tab active" onclick="showTab('home')">Trang chủ</button>
+    <button class="nav-tab" onclick="showTab('upload')">Upload đề</button>
+    <button class="nav-tab" onclick="showTab('history')">Lịch sử</button>
+  </div>
+</nav>
+
+<div class="wrap" id="app"></div>
+<div class="toast" id="toast"></div>
+
+<script>
+const API = "http://127.0.0.1:8000";
+let S = {
+  tab: "home",
+  screen: "home", // home | quiz | result
+  numQ: 10,
+  session: null,
+  questions: [],
+  current: 0,
+  answers: {},
+  correctMap: {},
+  timeLeft: 0,
+  timerInterval: null,
+  result: null,
+  stats: { total_questions: 0, with_answer: 0, total_sessions: 0, avg_score: 0, best_score: 0 },
+  history: [],
+  startTime: 0,
+};
+
+// ── Toast ──
+function toast(msg, type="ok") {
+  const el = document.getElementById("toast");
+  el.textContent = msg;
+  el.className = `toast ${type} show`;
+  setTimeout(() => el.classList.remove("show"), 2800);
+}
+
+// ── Tab ──
+function showTab(tab) {
+  S.tab = tab;
+  document.querySelectorAll(".nav-tab").forEach((el,i) => {
+    el.classList.toggle("active", ["home","upload","history"][i] === tab);
+  });
+  if (tab === "history") loadHistory();
+  if (tab === "home") loadStats();
+  render();
+}
+
+// ── API ──
+async function loadStats() {
+  try {
+    const r = await fetch(`${API}/stats`);
+    S.stats = await r.json();
+    render();
+  } catch(e) { }
+}
+
+async function loadHistory() {
+  try {
+    const r = await fetch(`${API}/history`);
+    S.history = (await r.json()).reverse();
+    render();
+  } catch(e) {}
+}
+
+// ── RENDER ──
+function render() {
+  const app = document.getElementById("app");
+  if (S.tab === "upload") { app.innerHTML = renderUpload(); bindUpload(); return; }
+  if (S.tab === "history") { app.innerHTML = renderHistory(); return; }
+  // Home tab
+  if (S.screen === "quiz")   { app.innerHTML = renderQuiz(); return; }
+  if (S.screen === "result") { app.innerHTML = renderResult(); return; }
+  app.innerHTML = renderHome();
+}
+
+// ────────────────────────────────────────
+//  HOME
+// ────────────────────────────────────────
+function renderHome() {
+  const s = S.stats;
+  const noQ = s.total_questions === 0;
+  return `<div class="fade">
+  <div style="padding:20px 0 28px">
+    <h1 style="font-size:32px;font-weight:800;margin-bottom:6px">Ôn tập thông minh</h1>
+    <p style="color:var(--muted);font-size:15px">Upload đề thi → hệ thống tự tạo trắc nghiệm · Lưu lịch sử học tập</p>
+  </div>
+  <div class="stats-grid">
+    <div class="stat-card"><div class="stat-n" style="color:var(--accent)">${s.total_questions}</div><div class="stat-l">Câu hỏi</div></div>
+    <div class="stat-card"><div class="stat-n" style="color:var(--green)">${s.total_sessions}</div><div class="stat-l">Lần thi</div></div>
+    <div class="stat-card"><div class="stat-n" style="color:var(--amber)">${s.best_score}%</div><div class="stat-l">Điểm cao nhất</div></div>
+  </div>
+  <div class="card">
+    <div class="card-title">SỐ CÂU HỎI</div>
+    <div class="num-grid">
+      ${[5,10,20,30,50].map(n=>`<button class="num-btn${S.numQ===n?' active':''}" onclick="setNum(${n})">${n}</button>`).join('')}
+    </div>
+    <button class="start-btn" onclick="startQuiz()" ${noQ?'disabled':''}>
+      ${noQ ? '📂 Upload đề thi trước' : '🚀 Bắt đầu làm bài'}
+    </button>
+    ${noQ?`<p style="text-align:center;font-size:13px;color:var(--muted);margin-top:12px">Chưa có câu hỏi — vào tab <b style="color:var(--accent)">Upload đề</b> để thêm file</p>`:''}
+  </div>
+  ${s.avg_score > 0 ? `<div class="card" style="display:flex;gap:20px;align-items:center">
+    <div style="font-size:32px">📊</div>
+    <div>
+      <div style="font-weight:600;margin-bottom:3px">Trung bình: <span style="color:var(--accent)">${s.avg_score}%</span></div>
+      <div style="font-size:13px;color:var(--muted)">Qua ${s.total_sessions} lần thi · Điểm cao nhất ${s.best_score}%</div>
+    </div>
+  </div>` : ''}
+</div>`;
+}
+
+function setNum(n) { S.numQ = n; render(); }
+
+async function startQuiz() {
+  try {
+    const r = await fetch(`${API}/quiz/start?num=${S.numQ}`);
+    if (!r.ok) { toast("Không đủ câu hỏi!", "err"); return; }
+    const data = await r.json();
+    S.session = data.session_id;
+    S.questions = data.questions;
+    S.answers = {}; S.correctMap = {};
+    S.current = 0;
+    S.timeLeft = S.numQ * 90;
+    S.startTime = Date.now();
+    S.screen = "quiz";
+    render();
+    startTimer();
+  } catch(e) { toast("Lỗi kết nối server!", "err"); }
+}
+
+// ────────────────────────────────────────
+//  QUIZ
+// ────────────────────────────────────────
+function renderQuiz() {
+  const q = S.questions[S.current];
+  const pct = ((S.current+1)/S.questions.length*100).toFixed(0);
+  const m = String(Math.floor(S.timeLeft/60)).padStart(2,'0');
+  const s2 = String(S.timeLeft%60).padStart(2,'0');
+  const warn = S.timeLeft < 60;
+
+  const dots = S.questions.map((_,i) => {
+    let c = "dot";
+    if (i === S.current) c += " cur";
+    else if (S.answers[i] !== undefined) c += " ans";
+    return `<div class="${c}" onclick="goTo(${i})">${i+1}</div>`;
+  }).join('');
+
+  const choices = q.choices.map(c => {
+    const isSelected = S.answers[S.current] === c.label;
+    const correct = S.correctMap[S.current];
+    let cls = "choice";
+    if (correct) {
+      if (c.label === correct) cls += " correct";
+      else if (isSelected) cls += " wrong";
+    } else if (isSelected) cls += " sel";
+    const disabled = correct ? "disabled" : "";
+    return `<button class="${cls}" onclick="pick('${c.label}')" ${disabled}><span class="c-lbl">${c.label}</span><span>${c.text}</span></button>`;
+  }).join('');
+
+  return `<div class="fade">
+  <div class="quiz-header">
+    <div class="q-info">Câu <b>${S.current+1}</b> / ${S.questions.length}</div>
+    <div class="timer-pill ${warn?'warn':'ok'}">⏱ ${m}:${s2}</div>
+    <div class="q-info"><b>${Object.keys(S.answers).length}</b> đã chọn</div>
+  </div>
+  <div class="prog-track"><div class="prog-track-fill" style="width:${pct}%"></div></div>
+  <div class="dot-wrap">${dots}</div>
+  <div class="card">
+    <div class="q-num">CÂU ${S.current+1}</div>
+    <div class="q-text">${q.question}</div>
+    ${choices}
+  </div>
+  <div class="nav-row">
+    <button class="btn-ghost" onclick="goTo(${S.current-1})" ${S.current===0?'disabled':''}>◀ Trước</button>
+    <button class="btn-red" onclick="confirmSubmit()">Nộp bài</button>
+    ${S.current < S.questions.length-1
+      ? `<button class="btn-ghost" onclick="goTo(${S.current+1})">Tiếp ▶</button>`
+      : `<button class="btn-green" onclick="submitQuiz()">Xong ✓</button>`}
+  </div>
+</div>`;
+}
+
+function startTimer() {
+  clearInterval(S.timerInterval);
+  S.timerInterval = setInterval(() => {
+    S.timeLeft--;
+    const el = document.querySelector('.timer-pill');
+    if (el) {
+      const m = String(Math.floor(S.timeLeft/60)).padStart(2,'0');
+      const s = String(S.timeLeft%60).padStart(2,'0');
+      el.textContent = `⏱ ${m}:${s}`;
+      el.className = `timer-pill ${S.timeLeft < 60 ? 'warn':'ok'}`;
+    }
+    if (S.timeLeft <= 0) { clearInterval(S.timerInterval); submitQuiz(); }
+  }, 1000);
+}
+
+function pick(label) {
+  if (S.correctMap[S.current] !== undefined) return;
+  S.answers[S.current] = label;
+  // Hiển thị đáp án ngay sau khi chọn (nếu có trong correctMap — sẽ có sau submit)
+  // Cập nhật dot
+  const dots = document.querySelectorAll('.dot');
+  if (dots[S.current]) dots[S.current].classList.add('ans');
+  const counter = document.querySelector('.q-info b');
+  if (counter) counter.textContent = Object.keys(S.answers).length;
+  // Re-render chỉ phần choices
+  const choices = document.querySelectorAll('.choice');
+  choices.forEach(c => {
+    const lbl = c.querySelector('.c-lbl').textContent;
+    c.className = 'choice' + (lbl === label ? ' sel' : '');
+  });
+}
+
+function goTo(i) {
+  if (i < 0 || i >= S.questions.length) return;
+  S.current = i;
+  render();
+  // Không restart timer — chỉ tiếp tục
+  const el = document.querySelector('.timer-pill');
+  if (el) {
+    const m = String(Math.floor(S.timeLeft/60)).padStart(2,'0');
+    const s = String(S.timeLeft%60).padStart(2,'0');
+    el.textContent = `⏱ ${m}:${s}`;
+  }
+}
+
+function confirmSubmit() {
+  const left = S.questions.length - Object.keys(S.answers).length;
+  if (left > 0 && !confirm(`Còn ${left} câu chưa trả lời. Nộp bài?`)) return;
+  submitQuiz();
+}
+
+async function submitQuiz() {
+  clearInterval(S.timerInterval);
+  const timeTaken = Math.round((Date.now() - S.startTime) / 1000);
+  try {
+    const r = await fetch(`${API}/quiz/submit`, {
+      method: 'POST', headers: {'Content-Type':'application/json'},
+      body: JSON.stringify({ session_id: S.session, answers: S.answers, time_taken: timeTaken })
+    });
+    const data = await r.json();
+    data.details.forEach(d => { S.correctMap[d.id] = d.correct; });
+    S.result = data;
+    S.screen = "result";
+    render();
+  } catch(e) { toast("Lỗi nộp bài!", "err"); }
+}
+
+// ────────────────────────────────────────
+//  RESULT
+// ────────────────────────────────────────
+function renderResult() {
+  const r = S.result;
+  const pct = r.percent;
+  const emoji = pct >= 80 ? '🏆' : pct >= 60 ? '📖' : '💪';
+  const msg   = pct >= 80 ? 'Xuất sắc!' : pct >= 60 ? 'Khá tốt, tiếp tục cố gắng!' : 'Cần ôn thêm!';
+
+  const details = r.details.map(d => `
+    <div class="detail ${d.ok?'ok':'bad'}">
+      <div class="detail-q">
+        <span class="tag ${d.ok?'ok':'bad'}">${d.ok?'✓':'✗'}</span>
+        <span>${d.question}</span>
+      </div>
+      ${!d.ok ? `<div class="detail-ans">
+        <span style="color:var(--red)">Bạn chọn: <b>${d.user||'—'}</b></span> &nbsp;·&nbsp;
+        <span style="color:var(--green)">Đúng: <b>${d.correct}</b> — ${(d.choices||[]).find(c=>c.label===d.correct)?.text||''}</span>
+      </div>` : ''}
+    </div>`).join('');
+
+  return `<div class="fade">
+  <div class="card result-hero">
+    <div class="result-emoji">${emoji}</div>
+    <div class="result-pct">${pct}%</div>
+    <div class="result-msg">${msg}</div>
+    <div class="result-stats">
+      <div class="rs"><div class="rs-n" style="color:var(--green)">${r.score}</div><div class="rs-l">Đúng</div></div>
+      <div class="rs"><div class="rs-n" style="color:var(--red)">${r.total-r.score}</div><div class="rs-l">Sai</div></div>
+      <div class="rs"><div class="rs-n">${r.total}</div><div class="rs-l">Tổng</div></div>
+    </div>
+    <div style="display:flex;gap:10px;margin-top:24px;justify-content:center;flex-wrap:wrap">
+      <button class="btn-ghost" style="border-color:var(--border2);padding:12px 22px" onclick="goHome()">🏠 Trang chủ</button>
+      <button class="start-btn" style="width:auto;padding:12px 22px" onclick="retryQuiz()">🔄 Thi lại</button>
+      <button class="btn-ghost" style="border-color:rgba(251,191,36,0.4);color:var(--amber);padding:12px 22px" onclick="reviewWrong()">📝 Ôn câu sai</button>
+    </div>
+  </div>
+  <div class="sec-head" style="margin-top:8px"><div class="sec-title">CHI TIẾT TỪNG CÂU</div></div>
+  ${details}
+</div>`;
+}
+
+function goHome() {
+  S.screen = "home"; S.result = null; S.tab = "home";
+  loadStats(); render();
+}
+
+function retryQuiz() {
+  S.answers = {}; S.correctMap = {}; S.current = 0;
+  S.timeLeft = S.numQ * 90; S.startTime = Date.now();
+  S.result = null; S.screen = "quiz";
+  render(); startTimer();
+}
+
+function restart() { goHome(); }
+
+async function reviewWrong() {
+  // Lọc câu sai và thi lại chỉ với câu sai
+  const wrongIds = S.result.details.filter(d => !d.ok).map(d => d.id);
+  if (wrongIds.length === 0) { toast("Không có câu sai!", "ok"); return; }
+  toast(`Đang tạo bài ôn ${wrongIds.length} câu sai...`, "ok");
+  // Tạo quiz mới với số câu = số câu sai (lấy ngẫu nhiên từ DB)
+  S.numQ = wrongIds.length;
+  await startQuiz();
+}
+
+// ────────────────────────────────────────
+//  UPLOAD
+// ────────────────────────────────────────
+function renderUpload() {
+  return `<div class="fade">
+  <div style="padding:20px 0 24px">
+    <h2 style="font-size:24px;font-weight:800;margin-bottom:6px">Upload đề thi</h2>
+    <p style="color:var(--muted);font-size:14px">Hỗ trợ file Word (.docx) và PDF · Tự động nhận dạng câu hỏi và đáp án</p>
+  </div>
+  <div class="upload-zone" id="upload-zone" onclick="document.getElementById('file-input').click()">
+    <div class="upload-icon">📂</div>
+    <div class="upload-title">Kéo thả file vào đây</div>
+    <div class="upload-sub">hoặc click để chọn file</div>
+    <div class="upload-sub" style="margin-top:6px;color:var(--muted)">Hỗ trợ: .docx · .pdf · Nhiều file cùng lúc</div>
+    <label class="upload-btn" onclick="event.stopPropagation()">
+      <input type="file" id="file-input" accept=".docx,.pdf" multiple onchange="handleFiles(this.files)">
+      Chọn file
+    </label>
+  </div>
+  <div class="upload-progress" id="upload-progress">
+    <div class="prog-text" id="prog-text">Đang xử lý...</div>
+    <div class="prog-bar"><div class="prog-fill" id="prog-fill"></div></div>
+  </div>
+  <div class="upload-result" id="upload-result"></div>
+
+  <div style="margin-top:28px">
+    <div class="sec-head">
+      <div class="sec-title">NGÂN HÀNG CÂU HỎI</div>
+      <button class="btn-sm" onclick="clearQuestions()">🗑 Xóa tất cả</button>
+    </div>
+    <div class="card" style="display:flex;gap:24px;align-items:center">
+      <div style="text-align:center">
+        <div style="font-family:'Syne',sans-serif;font-size:32px;font-weight:800;color:var(--accent)">${S.stats.total_questions}</div>
+        <div style="font-size:12px;color:var(--muted)">câu hỏi</div>
+      </div>
+      <div style="width:1px;height:48px;background:var(--border)"></div>
+      <div style="text-align:center">
+        <div style="font-family:'Syne',sans-serif;font-size:32px;font-weight:800;color:var(--green)">${S.stats.with_answer}</div>
+        <div style="font-size:12px;color:var(--muted)">có đáp án</div>
+      </div>
+      <div style="flex:1;text-align:right">
+        <button class="start-btn" style="width:auto;padding:11px 22px;font-size:14px" onclick="showTab('home')">
+          Thi ngay →
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div style="margin-top:24px">
+    <div class="sec-title" style="margin-bottom:12px">ĐỊNH DẠNG FILE HỖ TRỢ</div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
+      <div class="card" style="padding:16px 20px">
+        <div style="font-weight:700;margin-bottom:6px">📄 Word (.docx)</div>
+        <div style="font-size:12px;color:var(--muted);line-height:1.7">Câu hỏi đánh số · Đáp án A/B/C/D · Bảng đáp án cuối trang · Đáp án inline</div>
+      </div>
+      <div class="card" style="padding:16px 20px">
+        <div style="font-weight:700;margin-bottom:6px">📋 PDF</div>
+        <div style="font-size:12px;color:var(--muted);line-height:1.7">Text chọn được · Đáp án đúng tô màu đỏ · Đáp án inline</div>
+      </div>
+    </div>
+  </div>
+</div>`;
+}
+
+function bindUpload() {
+  const zone = document.getElementById("upload-zone");
+  if (!zone) return;
+  zone.addEventListener("dragover", e => { e.preventDefault(); zone.classList.add("drag"); });
+  zone.addEventListener("dragleave", () => zone.classList.remove("drag"));
+  zone.addEventListener("drop", e => { e.preventDefault(); zone.classList.remove("drag"); handleFiles(e.dataTransfer.files); });
+}
+
+async function handleFiles(files) {
+  if (!files || files.length === 0) return;
+  const prog = document.getElementById("upload-progress");
+  const fill = document.getElementById("prog-fill");
+  const txt  = document.getElementById("prog-text");
+  const res  = document.getElementById("upload-result");
+  prog.style.display = "block";
+  res.style.display = "none";
+  let totalAdded = 0, totalParsed = 0;
+
+  for (let i = 0; i < files.length; i++) {
+    const f = files[i];
+    txt.textContent = `Đang xử lý: ${f.name}`;
+    fill.style.width = `${Math.round((i / files.length) * 80)}%`;
+    const fd = new FormData();
+    fd.append("file", f);
+    try {
+      const r = await fetch(`${API}/upload`, { method: "POST", body: fd });
+      const d = await r.json();
+      if (r.ok) { totalAdded += d.added; totalParsed += d.parsed; }
+      else { toast(`Lỗi: ${d.detail}`, "err"); }
+    } catch(e) { toast("Không kết nối server!", "err"); }
+  }
+
+  fill.style.width = "100%";
+  setTimeout(() => {
+    prog.style.display = "none";
+    res.style.display = "block";
+    res.className = "upload-result ok";
+    res.innerHTML = `✅ Upload xong! Nhận dạng <b>${totalParsed}</b> câu · Thêm mới <b>${totalAdded}</b> câu vào ngân hàng`;
+    loadStats().then(() => render());
+    toast(`Thêm ${totalAdded} câu hỏi mới!`, "ok");
+  }, 400);
+}
+
+async function clearQuestions() {
+  if (!confirm("Xóa toàn bộ câu hỏi?")) return;
+  await fetch(`${API}/questions/clear`, { method: "DELETE" });
+  toast("Đã xóa toàn bộ câu hỏi", "ok");
+  await loadStats();
+  render();
+}
+
+// ────────────────────────────────────────
+//  HISTORY
+// ────────────────────────────────────────
+function renderHistory() {
+  if (S.history.length === 0) return `<div class="fade">
+  <div style="padding:20px 0 24px"><h2 style="font-size:24px;font-weight:800">Lịch sử ôn tập</h2></div>
+  <div class="empty">📭 Chưa có lịch sử<br><br>Bắt đầu làm bài để lưu kết quả</div></div>`;
+
+  const avg = Math.round(S.history.reduce((a,h)=>a+h.percent,0)/S.history.length);
+  const best = Math.max(...S.history.map(h=>h.percent));
+
+  const items = S.history.map(h => {
+    const color = h.percent >= 80 ? 'var(--green)' : h.percent >= 60 ? 'var(--amber)' : 'var(--red)';
+    const barColor = h.percent >= 80 ? '#34d399' : h.percent >= 60 ? '#fbbf24' : '#f87171';
+    return `<div class="hist-item">
+      <div class="hist-pct" style="color:${color}">${h.percent}%</div>
+      <div class="hist-info">
+        <div class="hist-score">${h.score}/${h.total} câu đúng</div>
+        <div class="hist-date">${h.date}${h.time_taken ? ` · ${Math.floor(h.time_taken/60)}p${h.time_taken%60}s` : ''}</div>
+        <div class="hist-bar"><div class="hist-bar-fill" style="width:${h.percent}%;background:${barColor}"></div></div>
+      </div>
+    </div>`;
+  }).join('');
+
+  return `<div class="fade">
+  <div style="padding:20px 0 24px">
+    <h2 style="font-size:24px;font-weight:800;margin-bottom:6px">Lịch sử ôn tập</h2>
+    <p style="color:var(--muted);font-size:14px">${S.history.length} lần thi · Trung bình ${avg}% · Cao nhất ${best}%</p>
+  </div>
+  <div class="stats-grid" style="margin-bottom:24px">
+    <div class="stat-card"><div class="stat-n">${S.history.length}</div><div class="stat-l">Lần thi</div></div>
+    <div class="stat-card"><div class="stat-n" style="color:var(--accent)">${avg}%</div><div class="stat-l">Trung bình</div></div>
+    <div class="stat-card"><div class="stat-n" style="color:var(--green)">${best}%</div><div class="stat-l">Tốt nhất</div></div>
+  </div>
+  <div class="sec-head">
+    <div class="sec-title">CÁC LẦN THI GẦN ĐÂY</div>
+    <button class="btn-sm" onclick="clearHistory()">🗑 Xóa</button>
+  </div>
+  ${items}
+</div>`;
+}
+
+async function clearHistory() {
+  if (!confirm("Xóa toàn bộ lịch sử?")) return;
+  await fetch(`${API}/history/clear`, { method: "DELETE" });
+  S.history = [];
+  toast("Đã xóa lịch sử", "ok");
+  render();
+}
+
+// ── Init ──
+loadStats();
+render();
+</script>
+</body>
+</html>

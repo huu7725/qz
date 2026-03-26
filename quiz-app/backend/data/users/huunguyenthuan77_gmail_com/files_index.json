@@ -1,0 +1,29 @@
+{
+  "thuvienhoclieu_com-Trac-nghiem-VDC-Lich-su-On-Thi-": {
+    "name": "thuvienhoclieu.com-Trac-nghiem-VDC-Lich-su-On-Thi-THPTQG (1)",
+    "filename": "thuvienhoclieu.com-Trac-nghiem-VDC-Lich-su-On-Thi-THPTQG (1).docx",
+    "count": 150,
+    "with_answer": 150,
+    "uploaded_at": "26/03/2026 10:24",
+    "file_id": "thuvienhoclieu_com-Trac-nghiem-VDC-Lich-su-On-Thi-",
+    "parse_method": "normal"
+  },
+  "trac-nghiem-ly-thuyet-sinh-12": {
+    "name": "trac-nghiem-ly-thuyet-sinh-12",
+    "filename": "trac-nghiem-ly-thuyet-sinh-12.pdf",
+    "count": 702,
+    "with_answer": 0,
+    "uploaded_at": "26/03/2026 10:35",
+    "file_id": "trac-nghiem-ly-thuyet-sinh-12",
+    "parse_method": "vision_ai"
+  },
+  "de-thi-hoc-ky-1-toan-11-mathvn-quoc-oai-ha-noi": {
+    "name": "de-thi-hoc-ky-1-toan-11-mathvn-quoc-oai-ha-noi",
+    "filename": "de-thi-hoc-ky-1-toan-11-mathvn-quoc-oai-ha-noi.docx",
+    "count": 14,
+    "with_answer": 5,
+    "uploaded_at": "26/03/2026 10:36",
+    "file_id": "de-thi-hoc-ky-1-toan-11-mathvn-quoc-oai-ha-noi",
+    "parse_method": "normal"
+  }
+}

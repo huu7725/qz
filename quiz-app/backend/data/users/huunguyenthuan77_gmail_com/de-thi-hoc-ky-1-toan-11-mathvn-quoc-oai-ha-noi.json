@@ -1,0 +1,250 @@
+[
+  {
+    "id": 1,
+    "question": "Cho dãy số  với .Số hạng tổng quát  của dãy số là số hạng nào dưới đây?",
+    "choices": [
+      {
+        "label": "A",
+        "text": ".\tB.  ."
+      },
+      {
+        "label": "C",
+        "text": ".\tD.  ."
+      }
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 2,
+    "question": "Phương trình nào sau đây vô nghiệm?",
+    "choices": [
+      {
+        "label": "A",
+        "text": ".\tB.  ."
+      },
+      {
+        "label": "C",
+        "text": ".\tD.  ."
+      }
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 3,
+    "question": "Nghiệm của phương trình  là",
+    "choices": [
+      {
+        "label": "A",
+        "text": ".\tB.  ."
+      },
+      {
+        "label": "C",
+        "text": "D.  ."
+      }
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 4,
+    "question": "Trong các mệnh đề sau. Mệnh đề sai là:",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Hai mặt phẳng song song thì không có điểm chung."
+      },
+      {
+        "label": "B",
+        "text": "Hai mặt phẳng cùng song song với một mặt phẳng thì song song với nhau."
+      },
+      {
+        "label": "C",
+        "text": "Hai mặt phẳng song song với nhau thì mọi đường thẳng nằm trong mặt phẳng này đều song song với mặt phẳng kia."
+      },
+      {
+        "label": "D",
+        "text": "Một mặt phẳng cắt hai mặt phẳng song song cho trước theo hai giao tuyến thì hai giao tuyến song song với nhau."
+      }
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 5,
+    "question": "Trong các dãy số sau đây, dãy số nào không phải là cấp số cộng?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "B."
+      },
+      {
+        "label": "C",
+        "text": "D."
+      }
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 6,
+    "question": "Cho hình chóp  có đáy là hình thang  . Gọi  là trung điểm . Giao tuyến của hai mặt phẳng  và  là:",
+    "choices": [
+      {
+        "label": "A",
+        "text": ",  là giao điểm  và .\tB.  ,  là giao điểm  và ."
+      },
+      {
+        "label": "C",
+        "text": ",  là giao điểm  và .\tD.  ,  là giao điểm  và ."
+      }
+    ],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 7,
+    "question": "Cho tứ diện. Gọi  lần lượt là trung điểm của các cạnh.",
+    "choices": [
+      {
+        "label": "A",
+        "text": "và .\tB.   và."
+      },
+      {
+        "label": "C",
+        "text": "là hình bình hành.\tD.  và  chéo nhau."
+      }
+    ],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 8,
+    "question": "Trong mặt phẳng  cho đường tròn  có phương trình . Hỏi phép dời hình có được bằng cách thực hiện liên tiếp phép tịnh tiến theo vectơ  và phép quay tâm O góc quay  biến đường tròn  thành đường tròn nào trong các đường tròn có phương trình sau?",
+    "choices": [
+      {
+        "label": "A",
+        "text": ".\tB.  ."
+      },
+      {
+        "label": "C",
+        "text": ".\tD.  ."
+      }
+    ],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 9,
+    "question": "Cho hình chóp tứ giác , gọi  là giao điểm của hai đường chéo  và . Một mặt phẳng  cắt các cạnh bên  tưng ứng tại các điểm . Khẳng định nào sau đây đúng?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Các đường thẳng  song song.\tB.  Các đường thẳng  trùng nhau."
+      },
+      {
+        "label": "C",
+        "text": "Các đường thẳng  đồng qui.\tD.  Các đường thẳng  chéo nhau."
+      }
+    ],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 10,
+    "question": "Tìm tập xác định  của hàm số  là :",
+    "choices": [
+      {
+        "label": "A",
+        "text": "B."
+      },
+      {
+        "label": "C",
+        "text": "D."
+      }
+    ],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 11,
+    "question": "Trong các mệnh đề sau, mệnh đề nào đúng?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Hai đường thẳng chéo nhau thì không có điểm chung."
+      },
+      {
+        "label": "B",
+        "text": "Hai đường thẳng phân biệt không song song thì chéo nhau."
+      },
+      {
+        "label": "C",
+        "text": "Hai đường thẳng lần lượt nằm trên hai mặt phẳng phân biệt thì chéo nhau."
+      },
+      {
+        "label": "D",
+        "text": "Hai đường thẳng không có điểm chung thì chéo nhau."
+      }
+    ],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 12,
+    "question": "Cho tam giác ABC có G là trọng tâm, phép tịnh tiến  biến tam giác ABC thành tam giác A’B’C’, biến điểm G thành điểm G’. Khẳng định nào sau đây đúng ?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "G’ là trực tâm tam giác A’B’C’."
+      },
+      {
+        "label": "B",
+        "text": "G’ là trọng tâm tam giác A’B’C’."
+      },
+      {
+        "label": "C",
+        "text": "G’ là tâm đường tròn ngoại tiếp tam giác A’B’C’."
+      },
+      {
+        "label": "D",
+        "text": "G’ là trọng tâm tam giác ABC."
+      }
+    ],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 13,
+    "question": "Trong các phương trình sau, phương trình nào nhận   làm nghiệm :",
+    "choices": [
+      {
+        "label": "A",
+        "text": "B."
+      },
+      {
+        "label": "C",
+        "text": "D."
+      }
+    ],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": 14,
+    "question": "Các yếu tố nào sau đây xác định một mặt phẳng duy nhất?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Một điểm và một đường thẳng\tB.  Hai đường thẳng cắt nhau"
+      },
+      {
+        "label": "C",
+        "text": "Bốn điểm phân biệt\tD.  Ba điểm phân biệt"
+      }
+    ],
+    "answer": "",
+    "explanation": ""
+  }
+]

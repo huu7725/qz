@@ -1,0 +1,3382 @@
+[
+  {
+    "id": 1,
+    "question": "Bài học kinh nghiệm quý báu được rút ra từ thực tiễn của cách mạng Việt Nam trong thế kỉ XX là",
+    "choices": [
+      {
+        "label": "A",
+        "text": "thực hiện mục tiêu độc lập dân tộc và ruộng đất cho dân cày."
+      },
+      {
+        "label": "B",
+        "text": "giải quyết tốt mối quan hệ giữa giải phóng dân tộc với giải phóng giai cấp."
+      },
+      {
+        "label": "C",
+        "text": "nắm vững ngọn cờ độc lập dân tộc và chủ nghĩa xã hội."
+      },
+      {
+        "label": "D",
+        "text": "không ngừng củng cố khối liên minh công - nông."
+      }
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 2,
+    "question": "Nội dung nào sau đây không phản ánh bước phát triển của chiến dịch Biên giới thu - đông 1950 so với chiến dịch Việt Bắc thu - đông 1947?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Ta chủ động mở chiến dịch."
+      },
+      {
+        "label": "B",
+        "text": "Phương thức tác chiến đa dạng, chủ yếu là quân chủ lực."
+      },
+      {
+        "label": "C",
+        "text": "Ta buộc Pháp phải chuyển sang đánh lâu dài."
+      },
+      {
+        "label": "D",
+        "text": "Ta giành quyền chủ động trên chiến trường chính Bắc bộ."
+      }
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 3,
+    "question": "Trong công cuộc xây dựng đất nước hiện nay, Việt Nam có thể rút ra kinh nghiệm gì từ sự phát triển kinh tế của nhóm 5 nước sáng lập ASEAN?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Tập trung chủ yếu sản xuất hàng tiêu dùng nội địa."
+      },
+      {
+        "label": "B",
+        "text": "Xây dựng nền văn hóa tiên tiến, đậm đà bản sắc dân tộc."
+      },
+      {
+        "label": "C",
+        "text": "Tập trung chủ đạo vào sản xuất hàng hóa để xuất khẩu."
+      },
+      {
+        "label": "D",
+        "text": "Xây dựng nền kinh tế tự chủ kết hợp với hội nhập quốc tế."
+      }
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 4,
+    "question": "Trong các sự kiện chính trị sau đây, sự kiện nào có tính chất quyết định nhất, có tác dụng đưa cuộc kháng chiến chống thực dân Pháp xâm lược tiến lên và chứng tỏ tính đúng đắn của tư tưởng Hồ Chí Minh về con đường cách mạng Việt Nam ?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Đại hội Chiến sĩ thi đua và Cán bộ gương mẫu toàn quốc (5-1952)."
+      },
+      {
+        "label": "B",
+        "text": "Đại hội đại biểu lần thứ II của Đảng Cộng sản Đông Dương (2-1951)."
+      },
+      {
+        "label": "C",
+        "text": "Hội nghị thành lập Liên minh nhân dân Việt - Miên - Lào (3-1951)."
+      },
+      {
+        "label": "D",
+        "text": "Đại hội thống nhất Mặt trận Việt Minh và Hội Liên Việt (3-1951)"
+      }
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 5,
+    "question": "Nhiệm vụ hàng đầu của cách mạng Việt Nam từ sau Cách mạng tháng Tám 1945 đến năm 1975 là",
+    "choices": [
+      {
+        "label": "A",
+        "text": "tiến hành cách mạng xã hội chủ nghĩa.\tB. thống nhất đất nước về mặt nhà nước."
+      },
+      {
+        "label": "C",
+        "text": "kháng chiến và kiến quốc\tD. chiến tranh giải phóng dân tộc."
+      }
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 6,
+    "question": "Tháng 8-1945 điều kiện khách quan rất thuận lợi, tạo thời cơ cho dân ta vùng lên giành độc lập, đó là :",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Sự đầu hàng của phát xít Italia và phát xít Đức ."
+      },
+      {
+        "label": "B",
+        "text": "Sự tan rã của phát xít Đức và sự đầu hàng vô điều kiện của phát xít Nhật ."
+      },
+      {
+        "label": "C",
+        "text": "Sự thất bại của phe phát xít Đức ở chiến trường Châu Âu ."
+      },
+      {
+        "label": "D",
+        "text": "Sự thắng lợi của phe Đồng minh."
+      }
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 7,
+    "question": "Sự khác biệt giữa phong trào đấu tranh của nông dân Nghệ-Tĩnh với phong trào đấu tranh cả nước năm 1930 là gì?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Nông dân đấu tranh chưa có khẩu hiệu cụ thể."
+      },
+      {
+        "label": "B",
+        "text": "Nông dân đấu tranh bằng lực lượng chính trị."
+      },
+      {
+        "label": "C",
+        "text": "Những cuộc đấu tranh của nông dân có vũ trang tự vệ."
+      },
+      {
+        "label": "D",
+        "text": "Những cuộc biểu tình của nông dân chỉ đặt ra mục tiêu cải thiện đời sống."
+      }
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 8,
+    "question": "Cuộc Tổng tiến công và nổi dậy Xuân Mậu Thân (1968) đã tạo bước ngoặt căn bản cho cuộc đấu tranh của nhân dân ta trên mặt trận ngoại giao vì",
+    "choices": [
+      {
+        "label": "A",
+        "text": "giáng một đồn mạnh vào chính quyền Sài gòn, khả năng can thiệp của Mĩ bị hạn chế."
+      },
+      {
+        "label": "B",
+        "text": "buộc Mĩ phải đến đàm phán ở Pari để bàn về chấm dứt chiến tranh ở Việt Nam"
+      },
+      {
+        "label": "C",
+        "text": "buộc mĩ phải chấm dứt không điều kiện chiến tranh phá hoại miền Bắc."
+      },
+      {
+        "label": "D",
+        "text": "làm lung lay ý chí xâm lược của quân Mĩ, buộc Mĩ phải tuyên bố \" phi Mĩ hóa\" chiến tranh xâm lược."
+      }
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 9,
+    "question": "Bài học kinh nghiệm quý báu nào luôn được nhân dân ta phát huy và vận dụng trong cuộc kháng chiến chống Pháp, Mĩ  và sự nghiệp xây dựng, bảo vệ Tổ quốc hiện nay?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "kiên quyết, khéo léo trong đấu tranh quân sự."
+      },
+      {
+        "label": "B",
+        "text": "đoàn kết toàn dân, phát huy sức mạnh của nhân dân."
+      },
+      {
+        "label": "C",
+        "text": "tận dụng thời cơ, chớp thời cơ cách mạng kịp thời."
+      },
+      {
+        "label": "D",
+        "text": "đấu tranh quân sự kết hợp với đấu tranh ngoại giao."
+      }
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 10,
+    "question": "Nhận xét nào sau đây đúng nhất nói về ý nghĩa chiến thắng Cầu Giấy lần thứ hai trong cuộc kháng chiến chống Pháp của nhân dân ta ?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Thể hiện lối đánh tài tình của nhân dân ta."
+      },
+      {
+        "label": "B",
+        "text": "Thể hiện lòng yêu nước, ý chí quyết tâm sẵn sàng tiêu diệt giặc của nhân dân ta."
+      },
+      {
+        "label": "C",
+        "text": "Thể hiện lòng yêu nước, bảo vệ Tổ quốc của nhân dân ta."
+      },
+      {
+        "label": "D",
+        "text": "Thể hiện sự của nhân dân ta trong việc phá thế vòng vây của địch."
+      }
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 11,
+    "question": "Điều gì chứng tỏ Cương lĩnh đầu tiên do Nguyễn Ái Quốc khởi thảo là đúng đắn, sáng tạo, thấm đượm tính dân tộc và nhân văn?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Đánh giá đúng khả năng cách mạng của các giai cấp trong xã hội Việt Nam."
+      },
+      {
+        "label": "B",
+        "text": "Nêu cao vấn đề dân tộc lên hàng đầu."
+      },
+      {
+        "label": "C",
+        "text": "Thấy được khả năng liên minh có điều kiện với giai cấp tư sản dân tộc, lôi kéo một bộ phận giai cấp địa chủ trong cách mạng giải phóng dân tộc."
+      },
+      {
+        "label": "D",
+        "text": "Đặt ngọn cờ dân tộc lên hàng đầu, đánh giá đúng khả năng cách mạng của các giai cấp."
+      }
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 12,
+    "question": "Nội dung nào sau đây phản ánh đúng nghệ thuật chỉ đạo khởi nghĩa giành chính quyền trong Cách mạng tháng Tám năm 1945 ở Việt Nam?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Khởi nghĩa giành chính quyền ở trung ương rồi tiến về các địa phương."
+      },
+      {
+        "label": "B",
+        "text": "Giành chính quyền ở các vùng nông thôn để bao vây rồi tiến vào thành thị."
+      },
+      {
+        "label": "C",
+        "text": "Kết hợp khởi nghĩa giành chính quyền ở cả nông thôn và thành thị."
+      },
+      {
+        "label": "D",
+        "text": "Giành chính quyền ở các đô thị lớn rồi tỏa về các vùng nông thôn."
+      }
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 13,
+    "question": "Nét độc đáo về nghệ thuật chỉ đạo quân sự của Đảng ta trong cuộc kháng chiến chống Mỹ, cứu nước là",
+    "choices": [
+      {
+        "label": "A",
+        "text": "kết hợp khởi nghĩa với chiến tranh cách mạng, tiến công và nổi dậy."
+      },
+      {
+        "label": "B",
+        "text": "kết hợp đấu tranh quân sự với đấu tranh ngoại giao."
+      },
+      {
+        "label": "C",
+        "text": "kết hợp đấu tranh chính trị với đấu tranh vũ trang."
+      },
+      {
+        "label": "D",
+        "text": "kết hợp đấu tranh trên ba mặt trận chính trị, quân sự và ngoại giao."
+      }
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 14,
+    "question": "Một trong những biểu hiện của vai trò quyết định nhất của cách mạng miền Bắc đối với sự nghiệp chống Mĩ cứu nước ở Việt Nam (1954-1975) là",
+    "choices": [
+      {
+        "label": "A",
+        "text": "hoàn thành việc xây dựng cơ sở -cở vật chất -kĩ thuật của chủ nghĩa xã hội."
+      },
+      {
+        "label": "B",
+        "text": "trực tiếp đánh thắng các chiến lược chiến tranh của Mĩ."
+      },
+      {
+        "label": "C",
+        "text": "làm nghĩa vụ hậu phương của chiến tranh cách mạng."
+      },
+      {
+        "label": "D",
+        "text": "giành thắng lợi trong trận quyết chiến chiến lược, kết thúc chiến tranh."
+      }
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 15,
+    "question": "Từ sự bùng nổ cuộc chiến tranh thế giới thứ nhất bài học nào là quan trọng nhất được rút ra để ngăn chặn một cuộc chiến tranh?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Kêu gọi sự ủng hộ của cộng đồng quốc tế."
+      },
+      {
+        "label": "B",
+        "text": "giải quyết các vấn đề bằng biện pháp hòa bình."
+      },
+      {
+        "label": "C",
+        "text": "Có đường lối chiến lược, chiến thuật đúng đắn."
+      },
+      {
+        "label": "D",
+        "text": "Đoàn kết nhân dân yêu chuộng hòa bình thế giới."
+      }
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 16,
+    "question": "Bài học nào dưới đây được rút ra từ phong trào dân chủ 1936 - 1939 còn nguyên giá trị trong thời đại ngày nay?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Linh hoạt các phương pháp đấu tranh kinh tế, chính trị, ngoại giao."
+      },
+      {
+        "label": "B",
+        "text": "Chủ trương phát huy sức mạnh đại đoàn kết dân tộc"
+      },
+      {
+        "label": "C",
+        "text": "Kết hợp xây dựng lực lượng với đấu tranh giành quyền làm chủ."
+      },
+      {
+        "label": "D",
+        "text": "Kết hợp đấu tranh chính trị với đấu tranh vũ trang."
+      }
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 17,
+    "question": "Ý nghĩa lớn nhất về sự ra đời của Đảng Cộng sản Việt Nam là",
+    "choices": [
+      {
+        "label": "A",
+        "text": "sự kết hợp tất yếu của quá trình đấu tranh dân tộc và giai cấp ở Việt Nam."
+      },
+      {
+        "label": "B",
+        "text": "mở ra một bước ngoặc lịch sử vô cùng quan trọng trong lịch sử Việt Nam."
+      },
+      {
+        "label": "C",
+        "text": "bước chuẩn bị đầu tiên cho thắng lợi của cách mạng Việt Nam."
+      },
+      {
+        "label": "D",
+        "text": "chấm dứt thời kỳ khủng hoảng đường lối của cách mạng Việt Nam."
+      }
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 18,
+    "question": "Nhân tố quyết định bảo đảm thắng lợi của cách mạng Việt Nam trong sự nghiệp đấu tranh giải phóng dân tộc, xây dựng và bảo vệ tổ quốc là",
+    "choices": [
+      {
+        "label": "A",
+        "text": "truyền thống yêu nước của dân tộc."
+      },
+      {
+        "label": "B",
+        "text": "sự ủng hộ, giúp đỡ của các nước trên thế giới."
+      },
+      {
+        "label": "C",
+        "text": "khối đại đoàn kết toàn dân tộc."
+      },
+      {
+        "label": "D",
+        "text": "sự lãnh đạo đúng đắn của Đảng Cộng sản Việt Nam."
+      }
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 19,
+    "question": "Vì sao Mĩ buộc phải tuyên bố \"Mĩ hóa\" trở lại chiến tranh xâm lược, tức thừa nhận sự thất bại của chiến lược \"Việt Nam hóa chiến tranh\"?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Do thắng lợi của ta trên bàn đàm phán ở Pari."
+      },
+      {
+        "label": "B",
+        "text": "Đòn tấn công bất ngờ, gây choáng váng của ta trong cuộc Tiến công chiến lược năm 1972."
+      },
+      {
+        "label": "C",
+        "text": "Do thắng lợi liên tiếp của ta trên các mặt trận quân sự trong ba năm 1969, 1970, và 1971."
+      },
+      {
+        "label": "D",
+        "text": "Do thắng lợi của nhân dân miền Bắc trong việc chiến đấu chống chiến tranh phá hoại lần thứ hai của Mĩ."
+      }
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 20,
+    "question": "Tính chất của cuộc Cách mạng tháng Tám năm 1945 ở Việt Nam là",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Cách mạng xã hội chủ nghĩa.\tB. Cách mạng dân tộc dân chủ nhân dân."
+      },
+      {
+        "label": "C",
+        "text": "Cách mạng tư sản.\tD. Cách mạng dân chủ tư sản kiểu cũ."
+      }
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 21,
+    "question": "Việt Nam đã và đang vận dụng nguyên tắc cơ bản nào của Liên hiệp quốc để đối phó với vấn đề phức tạp ở Biển Đông hiện nay ?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Chung sống hoà bình và sự nhất trí giữa năm cường quốc."
+      },
+      {
+        "label": "B",
+        "text": "Bình đắng chủ quyền giữa các quốc gia và quyền tự quyết của các dân tộc."
+      },
+      {
+        "label": "C",
+        "text": "Giải quyết các tranh chấp quốc tế bằng biện pháp hoà bình."
+      },
+      {
+        "label": "D",
+        "text": "Không can thiệp vào công việc nội bộ của bất cứ nước nào."
+      }
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 22,
+    "question": "Trong cuộc kháng chiến chống Mĩ cứu nước bài học cách mạng nào được Đảng ta chủ trương vận dụng để giải quyết vấn đề Biển Đảo trong giai đoạn hiện nay?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Sự lãnh đạo của Đảng là nhân tố hàng đầu đảm bảo thắng lợi"
+      },
+      {
+        "label": "B",
+        "text": "Kết hợp sức mạnh  d ân tộc và sức mạnh thời đại trong Nước và Quốc  Tế"
+      },
+      {
+        "label": "C",
+        "text": "Nắm vững ngọn cờ độc lập Dân tộc và Chủ nghĩa Xã hội"
+      },
+      {
+        "label": "D",
+        "text": "Không ngùng tăng cường và cũng cố khối đoàn kết toàn dân"
+      }
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 23,
+    "question": "Bài học kinh nghiệm lớn nhất được rút ra cho cách mạng Việt Nam từ sự thất bại của phong trào yêu nước cuối thế kỉ XIX đầu thế kỉ XX là gì?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Xây dựng được một mặt trận dân tộc thống nhất để đoàn kết toàn dân."
+      },
+      {
+        "label": "B",
+        "text": "Trong quá trình tiến hành cách mạng cần đặt vấn đề dân tộc lên hàng đầu."
+      },
+      {
+        "label": "C",
+        "text": "Có giai cấp tiên tiến lãnh đạo và đưa ra đường lối đấu tranh đúng đắn."
+      },
+      {
+        "label": "D",
+        "text": "Cần sử dụng phương pháp bạo lực thì mới có thể đánh đuổi đế quốc."
+      }
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 24,
+    "question": "Đặc điểm nổi bật của trật tự thế giới mới được hình thành trong những năm sau chiến tranh thế giới thứ hai là:",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Thế giới hình thành \"hai cực\": TBCN - XHCN do Mỹ, Liên Xô đứng đầu mỗi bên."
+      },
+      {
+        "label": "B",
+        "text": "Hình thành một trật tự thế giới, hoàn toàn do phe tư bản đứng đầu."
+      },
+      {
+        "label": "C",
+        "text": "Một trật tự thế giới được thiết lập trên cơ sở các nước tư bản thắng trận áp đặt quyền thống trị đối với các nước bại trận."
+      },
+      {
+        "label": "D",
+        "text": "Trật tự thế giới được thiết lập trên cơ sở các nước thắng trận cùng nhau hợp tác để lãnh đạo thế giới."
+      }
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 25,
+    "question": "Sau chiến tranh thế giới thứ hai, tâm điểm đối đầu giữa hai cực Xô - Mĩ ở châu Âu là ?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Tổ chức hiệp ước Vácsava\tB. sự tồn tại hai nhà nước Đức"
+      },
+      {
+        "label": "C",
+        "text": "kế hoạch Macsan.\tD. khối quân sự NATO."
+      }
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 26,
+    "question": "Trong xu thế hòa bình ổn định, hợp tác và phát triển, Việt Nam có được những thời cơ thuận lợi gì?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Ứng dụng các thành tựu khoa học -kĩ thuật vào sản xuất"
+      },
+      {
+        "label": "B",
+        "text": "Có được thị trường lớn để tăng cường xuất khẩu hàng hóa."
+      },
+      {
+        "label": "C",
+        "text": "Hợp tác kinh tế, thu hút vốn đầu tư và ứng dụng khoa học-kĩ thuật."
+      },
+      {
+        "label": "D",
+        "text": "Nâng cao trình độ tập trung vốn và lao động."
+      }
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 27,
+    "question": "Ý nào không phản ánh đúng vai trò của Việt Nam trong ASEAN hiện nay?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Việt Nam là một thành viên đáng tin cậy, có trách nhiệm và tích cực trong ASEAN"
+      },
+      {
+        "label": "B",
+        "text": "Góp phần tích cực trong thúc đẩy kết nạp các nước còn lại, hình thành một khối ASEAN thống nhất gồm 10 nước."
+      },
+      {
+        "label": "C",
+        "text": "Đóng vai trò tích cực trong việc thành lập Cộng đồng ASEAN cuối năm 2015."
+      },
+      {
+        "label": "D",
+        "text": "Đảm nhiệm vai trò Chủ tịch ASEAN từ năm 2010 đến nay."
+      }
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 28,
+    "question": "Đặc điểm bao trùm của lịch sử dân tộc Việt Nam từ năm 1919 đến đầu năm1930 là",
+    "choices": [
+      {
+        "label": "A",
+        "text": "khuynh hướng vô sản  chiếm ưu thế tuyệt đối nhờ kinh nghiệm từ khuynh hướng tư sản."
+      },
+      {
+        "label": "B",
+        "text": "khuynh hướng vô sản và khuynh hướng tư sản cùng phát triển trong phong trào yêu nước."
+      },
+      {
+        "label": "C",
+        "text": "phát triển tuần tự từ khuynh hướng tư sản chuyển sang khuynh hướng vô sản."
+      },
+      {
+        "label": "D",
+        "text": "sau thất bại của khuynh hướng tư sản, khuynh hướng vô sản phát triển mạnh."
+      }
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 29,
+    "question": "Sự kiện lịch sử nào dưới đây đánh dấu khuynh hướng cách mạng vô sản thắng thế, giành quyền lãnh đạo cách mạng Việt Nam?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Đảng Cộng sản Việt Nam được thành lập.\tB. Sự ra đời của ba tổ chức cộng sản."
+      },
+      {
+        "label": "C",
+        "text": "Tân Việt Cách mạng đảng bị phân hoá.\tD. Hội Việt Nam Cách mạng thanh niên ra đời."
+      }
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 30,
+    "question": "Căn cứ địa trong cuộc kháng chiến chống thực dân Pháp của nhân dân Việt Nam (1945 - 1954) không phải là",
+    "choices": [
+      {
+        "label": "A",
+        "text": "một loại hình hậu phương kháng chiến."
+      },
+      {
+        "label": "B",
+        "text": "nơi đối phương bất khả xâm phạm."
+      },
+      {
+        "label": "C",
+        "text": "trận địa tiến công quân xâm lược"
+      },
+      {
+        "label": "D",
+        "text": "nơi đứng chân của lực lượng vũ trang."
+      }
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 31,
+    "question": "Sự kiện đánh dấu bước ngoặt trong cuộc đời hoạt động của Nguyễn Ái Quốc đi từ lập trường một người yêu nước chuyển sang lập trường một người cộng sản là",
+    "choices": [
+      {
+        "label": "A",
+        "text": "bỏ phiếu tán thành việc gia nhập quốc tế cộng sản (12.1920)"
+      },
+      {
+        "label": "B",
+        "text": "đưa bản yêu sách của nhân dân An Nam đến Hội nghị Vécxai (1919)"
+      },
+      {
+        "label": "C",
+        "text": "đọc sơ thảo luận cương của LêNin về vấn đề dân tộc và thuộc địa. (7. 1920)"
+      },
+      {
+        "label": "D",
+        "text": "ảnh hưởng của Cách mạng tháng Mười Nga đến tư tưởng cứu nước của Nguyễn Ái Quốc."
+      }
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 32,
+    "question": "Nét nổi bật về nghệ thuật chỉ đạo chiến tranh cách mạng của Đảng Lao động Việt Nam trong cuộc Tổng tiến công và nổi dậy Xuân 1975 là",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Lựa chọn đúng địa bàn và chủ động tạo thời cơ tiến công."
+      },
+      {
+        "label": "B",
+        "text": "Kết hợp đánh thắng nhanh và đánh chắc, tiến chắc."
+      },
+      {
+        "label": "C",
+        "text": "Đi từ khởi nghĩa từng phần tiến lên chiến tranh cách mạng."
+      },
+      {
+        "label": "D",
+        "text": "Kết hợp tiến công và khởi nghĩa của lực lượng vũ trang."
+      }
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 33,
+    "question": "Sự kiện nào sau đây được sách giáo khoa Lịch sử 12 hiện hành (năm 2018), chương trình cơ bản, NXB giáo dục nhận định \"mãi mãi đi vào lịch sử Việt Nam là một trong những ngày hội lớn nhất, vẻ vang nhất của lịch sử dân tộc\"?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Chiến dịch lịch sử Điện Biên Phủ thắng lợi, làm phá sản hoàn toàn kế hoạch Nava"
+      },
+      {
+        "label": "B",
+        "text": "Ngày 25 - 8 - 1945, Chủ tịch Hồ Chí Minh, Trung ương Đảng từ Tân Trào về đến Hà Nội"
+      },
+      {
+        "label": "C",
+        "text": "Ngày 2 - 9 - 1945, Bác Hồ đọc Tuyên ngôn Độc lập, khai sinh nước Việt Nam Dân chủ Cộng hòa"
+      },
+      {
+        "label": "D",
+        "text": "Cách mạng tháng Tám năm 1945 thắng lợi, mở ra bước ngoặt lịch sử cho cách mạng Việt Nam"
+      }
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 34,
+    "question": "Đặc điểm nổi bật của phong trào dân tộc, dân chủ Việt Nam từ 1919-1930 là",
+    "choices": [
+      {
+        "label": "A",
+        "text": "sự phát triển của phong trào công nhân từ tự phát sang tự giác"
+      },
+      {
+        "label": "B",
+        "text": "sự phát triển mạnh mẽ của khuynh hướng cách mạng vô sản và dân chủ tư sản."
+      },
+      {
+        "label": "C",
+        "text": "sự chuyển biến về tư tưởng của giai cấp tiểu tư sản trước tác động của chủ nghĩa Mác -Lênin."
+      },
+      {
+        "label": "D",
+        "text": "cuộc đấu tranh giành quyền lãnh đạo giữa khuynh hướng cách mạng vô sản và dân chủ tư sản."
+      }
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 35,
+    "question": "Nguyên nhân quan trọng nhất quyết định thắng lợi của cuộc kháng chiến chống Pháp (1945 - 1954) là",
+    "choices": [
+      {
+        "label": "A",
+        "text": "hậu phương rộng lớn, vững chắc về mọi mặt."
+      },
+      {
+        "label": "B",
+        "text": "sự lãnh sáng suốt của Đảng đứng đầu là chủ tịch Hồ Chí Minh."
+      },
+      {
+        "label": "C",
+        "text": "dân tộc ta có truyền thống yêu nước nồng nàn."
+      },
+      {
+        "label": "D",
+        "text": "tình đoàn kết chiến đấu của 3 nước Đông Dương."
+      }
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 36,
+    "question": "Bước sang thế kỉ XXI, với sự tiến triển của xu thế hòa bình, hợp tác và phát triển, Việt Nam có những thời cơ gì?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Học hỏi kinh nghiệm quản lý của các nước tiên tiến trên thế giới."
+      },
+      {
+        "label": "B",
+        "text": "Thu hút vốn đầu tư từ bên ngoài, tăng cường mở rộng thị trường."
+      },
+      {
+        "label": "C",
+        "text": "Ứng dụng các thành tựu khoa học – kĩ thuật vào sản xuất."
+      },
+      {
+        "label": "D",
+        "text": "Hợp tác kinh tế, thu hút vốn đầu tư và ứng dụng khoa học kĩ thuật."
+      }
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 37,
+    "question": "Nét tương đồng về sự hình  thành và phát triển của Liên minh châu Âu (EU) và Hiệp hội các quốc gia Đông Nam Á (ASEAN) là gì ?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Thành lập sau khi đã hoàn thành khôi phục kinh tế, trở thành những quốc gia độc lập,tự chủ, có nhu cầu liên minh hợp tác."
+      },
+      {
+        "label": "B",
+        "text": "Ban đầu khi mới hình thành chỉ có 6 nước thành viên, về sau mở rộng ra nhiều nước."
+      },
+      {
+        "label": "C",
+        "text": "Từ thập kỉ 90 của thế kỉ XX, trở thành khu vực năng động, có địa vị quốc tế cao."
+      },
+      {
+        "label": "D",
+        "text": "Mục tiêu thành lập ban đầu là trở thành một liên minh kinh tế, văn hóa, chính trị để thoát khỏi sự chi phối, ảnh hưởng từ các cường quốc bên ngoài."
+      }
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 38,
+    "question": "Bài học nào từ Cách mạng tháng Tám năm 1945 có thể vận dụng cho công cuộc xây dựng và phát triển đất nước hiện nay?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Độc lập dân tộc gắn liền với chủ nghĩa xã hội."
+      },
+      {
+        "label": "B",
+        "text": "Đoàn kết toàn dân tộc trong mặt trận dân tộc thống nhất."
+      },
+      {
+        "label": "C",
+        "text": "Kết hợp sức mạnh dân tộc với sức mạnh thời đại."
+      },
+      {
+        "label": "D",
+        "text": "Kiên trì và tin tưởng vào sự lãnh đạo của Đảng."
+      }
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 39,
+    "question": "Nội dung nào phản ánh đúng và đầy đủ tính chất các cuộc kháng chiến của nhân dân Việt nam chống thực dân Pháp xâm lược ( 1945-1954 )?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Giải phóng và giữ nước.\tB. Giữ nước và dựng nước."
+      },
+      {
+        "label": "C",
+        "text": "Bảo vệ Tổ quốc.\tD. Giải phóng dân tộc."
+      }
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 40,
+    "question": "Việc vận dùng sáng tạo chủ nghĩa Mác - Lênin vào thực tiễn cách mạng Việt Nam của Chủ tịch Hồ Chí Minh trong giai đoạn 1930 - 1945 được thể hiện qua luận điểm nào ?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Luôn đặt nhiệm vụ giải phóng dân tộc lên hàng đầu."
+      },
+      {
+        "label": "B",
+        "text": "Xử lí đúng đắn mối quan hệ giữa hai nhiệm vụ giải phóng dân tộc và giải phóng giai cấp."
+      },
+      {
+        "label": "C",
+        "text": "Giai cấp công nhân là lực lượng lãnh đạo cách mạng Việt Nam."
+      },
+      {
+        "label": "D",
+        "text": "Đảng Cộng sản Đông Dương luôn giữ vai trò lãnh đạo cách mạng."
+      }
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 41,
+    "question": "Ý nghĩa quan trọng nhất của chiến thắng Phước Long đối với cuộc kháng chiến chống Mĩ là gì?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Tạo tiền đề thuận lợi để hoàn thành sớm quyết tâm giải phóng hoàn toàn miền Nam"
+      },
+      {
+        "label": "B",
+        "text": "Làm lung lay ý chí chiến đấu của quân đội Sài Gòn"
+      },
+      {
+        "label": "C",
+        "text": "Chứng tỏ sự lớn mạnh và khả năng thắng lợi của quân ta, giúp Bộ chính trị hoàn chỉnh kế hoạch giải phóng miền Nam"
+      },
+      {
+        "label": "D",
+        "text": "Giáng đòn mạnh vào chính quyền và quân đội Sài Gòn"
+      }
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 42,
+    "question": "Cương lĩnh chính trị đầu tiên của Đảng cộng sản Việt Nam là đúng đắn sáng tạo vì",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Cương lĩnh đã vạch ra vấn đề cơ bản về đường lối của cách mạng Việt Nam."
+      },
+      {
+        "label": "B",
+        "text": "Cương lĩnh kêu gọi các dân tộc trên thế giới đoàn kết chống kẻ thù chung là chủ nghĩa đế quốc."
+      },
+      {
+        "label": "C",
+        "text": "khẳng định cách mạng Việt Nam là bộ phận khăng khít của cách mạng thế giới."
+      },
+      {
+        "label": "D",
+        "text": "Cương lĩnh thể hiện rõ tư tưởng cốt lõi của dân tộc Việt Nam độc lập và tự do."
+      }
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 43,
+    "question": "Với chủ trương \"chống dịch Covid-19 như chống giặc\". Bộ chính trị và bộ Giáo dục đã cho học, sinh viên cả nước nghỉ học đến hết tháng 2 năm 2020 để phòng chống dịch, điều chỉnh kế hoạch dạy và học, Nhà nước ta còn truyên bố \"sẵn sàng đón đồng bào Việt đang học tập và công tác tại Vũ Hán về nước\"… Những việc làm trên cho thấy tinh thần chỉ đạo đúng đắn nào của Đảng và Nhà nước?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "kết hợp phòng và chống dịch trên mặt trận kinh tế."
+      },
+      {
+        "label": "B",
+        "text": "kết hợp giữa đấu tranh chính trị với vũ trang."
+      },
+      {
+        "label": "C",
+        "text": "tăng cường đoàn kết chống dịch như chống giặc."
+      },
+      {
+        "label": "D",
+        "text": "phải kịp thời đề ra chủ trương linh hoạt, phù hợp."
+      }
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 44,
+    "question": "Nhận xét nào sau đây là không đúng về Cách mạng tháng Tám năm 1945 ở Việt Nam?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Đây là cuộc cách mạng diễn ra với sự kết hợp khởi nghĩa ở cả nông thôn và thành thị."
+      },
+      {
+        "label": "B",
+        "text": "Đây là cuộc cách mạng diễn ra với sự kết hợp lực lượng chính trị và lực lượng vũ trang."
+      },
+      {
+        "label": "C",
+        "text": "Đây là cuộc cách mạng đi từ khởi nghĩa từng phần tiến lên tổng khởi nghĩa."
+      },
+      {
+        "label": "D",
+        "text": "Đây là cuộc cách mạng diễn ra nhanh, gọn, ít đổ máu, bằng phương pháp hòa bình."
+      }
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 45,
+    "question": "Điểm khác biệt cơ bản về mục tiêu xây dựng chủ nghĩa xã hội ở Đại hội toàn quốc lần III (9-1960) với Đại hội đại biểu lần thứ VI (12-1986) là gì?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Tiến hành xây dựng nền kinh tế xã hội chủ nghĩa theo hướng hiện đại."
+      },
+      {
+        "label": "B",
+        "text": "Xây dựng nền kinh tế hàng hóa nhiều thành phần."
+      },
+      {
+        "label": "C",
+        "text": "Tiến hành công nghiệp hóa xã hội chủ nghĩa."
+      },
+      {
+        "label": "D",
+        "text": "Tiến nhanh tiến mạnh tiến vững chắc lên chủ nghĩa xã hội."
+      }
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 46,
+    "question": "Quyết định nào dưới đây của Hội nghị Ianta (2-1945) đã tạo điều kiện cho thực dân   Pháp trở lại xâm lược Đông Dương?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Quân Anh sẽ mở đường cho thực dân Pháp chiếm lại Đông Dương."
+      },
+      {
+        "label": "B",
+        "text": "Đồng ý cho quân Trung Hoa Dân quốc và quân Anh vào Đông Dương."
+      },
+      {
+        "label": "C",
+        "text": "Liên Xô không được đưa quân đội vào Đông Dương."
+      },
+      {
+        "label": "D",
+        "text": "Đông Nam Á vẫn thuộc phạm vi ảnh hưởng của các nước phương Tây."
+      }
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 47,
+    "question": "Quyết tâm đoàn kết chiến đấu chống Mĩ của ba nước Đông Dương (1969-1973) được biểu hiện bằng sự kiện nào?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Mặt trận thống nhất dât tộc phản đế Đông Dương thành lập."
+      },
+      {
+        "label": "B",
+        "text": "Hội nghị cấp cao ba nước Việt Nam - Lào - Cam-pu-chia."
+      },
+      {
+        "label": "C",
+        "text": "Mặt trận thống nhất nhân dân phản đế Đông Dương thành lập."
+      },
+      {
+        "label": "D",
+        "text": "Thành lập liên minh nhân dân Việt - Miên - Lào."
+      }
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 48,
+    "question": "Nét tương đồng về nghệ thuật quân sự của chiến dịch Điện Biên Phủ (1954) và chiến dịch Hồ Chí Minh (1975) là gì?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Tập trung lực lượng, bao vây, tổ chức tiến công hợp đồng binh chủng"
+      },
+      {
+        "label": "B",
+        "text": "Từng bước xiết chặt vòng vây, kết hợp đánh tiêu diệt và đánh tiêu hao"
+      },
+      {
+        "label": "C",
+        "text": "Chia cắt, từng bước đánh chiếm các cơ quan đầu não của đối phương"
+      },
+      {
+        "label": "D",
+        "text": "Bao vây, đánh lấn, kết hợp tiến công quân sự với nổi dậy của quần chúng"
+      }
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 49,
+    "question": "Việt Nam có thể rút ra bài học kinh nghiệm gì từ sự phát triển kinh tế của Ấn Độ?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Tập trung đầu tư xây dựng cơ sở hạ tầng."
+      },
+      {
+        "label": "B",
+        "text": "Chú trọng vào ngành công nghiệp nặng."
+      },
+      {
+        "label": "C",
+        "text": "Coi trọng  khai thác nguồn tài nguyên thiên nhiên."
+      },
+      {
+        "label": "D",
+        "text": "Chú trọng phát triển khoa học kĩ thuật hiện đại."
+      }
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 50,
+    "question": "Nhận định nào phản ánh đầy đủ quan hệ quốc tế trong nửa sau thế kỉ XX?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Các hoạt động về kinh tế, tài chính, chính trị của các quốc gia, các tổ chức quốc tế diễn ra mạnh mẽ."
+      },
+      {
+        "label": "B",
+        "text": "Quan hệ quốc tế mở rộng, đa dạng, phần lớn các quốc gia cùng tồn tại hòa bình, vừa đấu tranh, vừa hợp tác."
+      },
+      {
+        "label": "C",
+        "text": "Các quốc gia đều bước lên vũ đài chính trị và khẳng định vị thế của mình trong trật tự thế giới mới."
+      },
+      {
+        "label": "D",
+        "text": "Quan hệ quốc tế mở rộng do sự phát triền như vũ bão của cách mạng khoa học - kĩ thuật."
+      }
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 51,
+    "question": "Từ kết quả của cuộc đấu tranh ngoại giao buộc Mĩ phải kí kết Hiệp định Pari, hãy rút ra bài học kinh nghiệm gì cho vấn đề ngoại giao hiện nay?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Bài học về sự kết hợp giữa đấu tranh quân sự, chính trị và ngoại giao"
+      },
+      {
+        "label": "B",
+        "text": "Bài học về sự kết hợp giữa đấu tranh quân sự, binh vận và ngoại giao"
+      },
+      {
+        "label": "C",
+        "text": "Bài học về sự kết hợp giữa đấu tranh quân sự, kinh tế và ngoại giao."
+      },
+      {
+        "label": "D",
+        "text": "Bài học về sự kết hợp giữa đấu tranh văn hóa, chính trị và ngoại giao."
+      }
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 52,
+    "question": "Nhân tố tác động, thúc đẩy, nền kinh tế các nước tư bản phát triển sau chiến tranh thế giới lần thứ hai có tính bền vững, lâu dài là",
+    "choices": [
+      {
+        "label": "A",
+        "text": "nguồn tài nguyên thiên nhiên.\tB. con người."
+      },
+      {
+        "label": "C",
+        "text": "chiến tranh.\tD. khoa học - kỹ thuật."
+      }
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 53,
+    "question": "Hiệp hội các quốc gia Đông Nam Á (ASEAN) ra đời không dựa vào lý do nào sau đây?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Nhu cầu hợp tác phát triển kinh tế sau khi giành được độc lập."
+      },
+      {
+        "label": "B",
+        "text": "Xu thế khu vực hóa đang diễn ra mạnh mẽ và hiệu quả."
+      },
+      {
+        "label": "C",
+        "text": "Muốn hạn chế sự ảnh hưởng của các cường quốc đối với khu vực."
+      },
+      {
+        "label": "D",
+        "text": "Các nước Đông Nam Á muốn đấu tranh với chủ nghĩa thực dân."
+      }
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 54,
+    "question": "Hiện nay, Việt Nam vân dụng nguyên tắc cơ bản nào của Liên hợp quốc để đấu tranh  bảo vệ chủ quyền biển đảo?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Bình đẳng chủ quyền giữa các quốc gia và quyền tự quyết của các dân tộc."
+      },
+      {
+        "label": "B",
+        "text": "Không can thiệp vào công việc nội bộ của bất kỳ nước nào."
+      },
+      {
+        "label": "C",
+        "text": "Tôn trọng toàn vẹn lãnh thổ và độc lập chính trị của các nước."
+      },
+      {
+        "label": "D",
+        "text": "Giải quyết các tranh chấp quốc tế bằng biện pháp hòa bình."
+      }
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 55,
+    "question": "Một trong những bài học của Việt Nam rút ra từ việc thực hiện cải cách ruộng đất 1954-1957 là:",
+    "choices": [
+      {
+        "label": "A",
+        "text": "dựa vào sức mạnh của toàn dân\tB. dựa vào sức mạnh của giai cấp Công nhân"
+      },
+      {
+        "label": "C",
+        "text": "dựa vào sức mạnh của giai cấp Nông dân\tD. dựa vào sức mạnh của Địa Chủ kháng chiến"
+      }
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 56,
+    "question": "Chủ tịch Hồ Chí Minh từng ví \"….như cái chiêng, ….như cái tiếng, cái chiêng có to thì cái tiếng mới lớn\"",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Chính trị /ngoại giao.\tB. Chính trị / quân sự."
+      },
+      {
+        "label": "C",
+        "text": "Chính trị/ kinh tế.\tD. Chính trị /ngoại giao."
+      }
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 57,
+    "question": "Điểm chung của Cách mạng tháng Tám năm 1945, kháng chiến chống thực dân Pháp (1945 - 1954) và kháng chiến chống Mỹ, cứu nước (1954 - 1975) ở Việt Nam là có sự kết hợp",
+    "choices": [
+      {
+        "label": "A",
+        "text": "đấu tranh chính trị, quân sự và ngoại giao.\tB. của lực lượng vũ trang ba thứ quân."
+      },
+      {
+        "label": "C",
+        "text": "chiến trường chính và vùng sau lưng địch.\tD. lực lượng chính trị với lực lượng vũ  trang."
+      }
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 58,
+    "question": "Từ thắng lợi của phong trào \"Đồng khởi\" để lại cho cách mạng miền Nam kinh nghiệm gì?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Đảng phải kịp thời đề ra chủ trương cách mạng phù hợp."
+      },
+      {
+        "label": "B",
+        "text": "Phải kết hợp giữa đấu tranh chính trị với đấu tranh vũ trang."
+      },
+      {
+        "label": "C",
+        "text": "Kết hợp giữa đấu tranh binh vận và đấu tranh chính trị."
+      },
+      {
+        "label": "D",
+        "text": "Sử dụng bạo lực cách mạng."
+      }
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 59,
+    "question": "Điểm giống nhau giữa Chiến tranh lạnh và hai cuộc chiến tranh thế giới đã qua trong thế kỉ XX đã qua là?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Để lại hậu quả nghiêm trọng cho nhân loại.\tB. Gây nên mâu thuẫn sâu sắc giữa các nước."
+      },
+      {
+        "label": "C",
+        "text": "Diễn ra quyết liệt, không phân thắng bại.\tD. Diễn ra trên mọi lĩnh vực."
+      }
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 60,
+    "question": "Trong xu thế phát triển của thế giới sau Chiến tranh lạnh, Việt Nam cần đề ra chiến lược phát triển đất nước như thế nào?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Giữ gìn bản sắc văn hóa dân tộc.\tB. Mở rộng quan hệ ngoại giao."
+      },
+      {
+        "label": "C",
+        "text": "Tập trung phát triển kinh tế.\tD. Tập trung ổn định chính trị."
+      }
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 61,
+    "question": "Ý kiến nào dưới đây đánh giá không đúng về Hiệp định Giơ-ne-vơ năm 1954 về Đông Dương?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Sau Hiệp định Giơnevơ, so sánh lực lượng ở miền Nam Việt Nam thay đổi không có lợi cho ta"
+      },
+      {
+        "label": "B",
+        "text": "Hiệp định là văn bản pháp lí quốc tế ghi nhận quyền dân tộc cơ bản của ba nước Đông Dương."
+      },
+      {
+        "label": "C",
+        "text": "Hiệp định đã phản ánh đầy đủ những thắng lợi của nhân dân Việt Nam trên chiến trường."
+      },
+      {
+        "label": "D",
+        "text": "Hiệp định đã đánh dấu thắng lợi không trọn vẹn của cuộc kháng chiến chống Pháp của nhân dân ta."
+      }
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 62,
+    "question": "Việt Nam có thể rút ra bài học kinh nghiệm nào dưới đây từ chiến lược kinh tế hướng ngoại của nhóm năm nước sáng lập ASEAN?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Chú trọng phát triển ngoại thương, sản xuất hàng tiêu dùng nội địa thay thế hàng nhập khẩu."
+      },
+      {
+        "label": "B",
+        "text": "Phải đề ra chiến lược phát triển kinh tế phù hợp với đặc điểm riêng của đất nước và xu thế chung của thế giới."
+      },
+      {
+        "label": "C",
+        "text": "Coi trọng sản xuất háng hóa để xuất khấu, thu hút vốn, công nghệ của nhà đầu tư nước ngoài."
+      },
+      {
+        "label": "D",
+        "text": "Cần thu hút vốn đầu tư của nước ngoài, tập trung sản xuất hàng hóa, nâng cao khả năng cạnh tranh."
+      }
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 63,
+    "question": "Thắng lợi tạo ra bước \"đột phá\" góp phần làm xói mòn trật tự \"hai cực\" lanta là",
+    "choices": [
+      {
+        "label": "A",
+        "text": "cách mạng Cuba thành công (1959), lật đổ chế độ độc tài thân Mĩ (Batista)."
+      },
+      {
+        "label": "B",
+        "text": "thắng lợi của nhân dân Việt Nam trong chiến dịch Điện Biên Phủ (1954)."
+      },
+      {
+        "label": "C",
+        "text": "cách mạng dân tộc dân chủ nhân dân Trung Quốc thành công (1949)."
+      },
+      {
+        "label": "D",
+        "text": "ba nước Inđônêxia, Việt Nam, Lào giành và tuyên bố độc lập (1945)."
+      }
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 64,
+    "question": "Điểm tương đồng trong công cuộc cải cách-mở cửa ở Trung Quốc với công cuộc cải tổ ở Liên Xô và đổi mới đất nước ở Việt Nam là",
+    "choices": [
+      {
+        "label": "A",
+        "text": "lấy phát triển kinh tế làm trọng tâm, mở rộng hội nhập quốc tế."
+      },
+      {
+        "label": "B",
+        "text": "tiến hành cải tổ về chính trị, cho phép đa nguyên đa đảng."
+      },
+      {
+        "label": "C",
+        "text": "Đảng Cộng sản nắm quyền lãnh đạo, kiên trì theo con đường xã hội chủ nghĩa."
+      },
+      {
+        "label": "D",
+        "text": "đều tiến hành khi đất nước lâm vào tình trạng không ổn định, khủng hoảng kéo dài."
+      }
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 65,
+    "question": "Bài học kinh nghiệm chủ yếu từ sự phát triển của nền kinh tế Nhật Bản cho các nước đang phát triển trong đó có Việt Nam là gì?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Tận dụng tốt các điều kiện bên ngoài để phát triển."
+      },
+      {
+        "label": "B",
+        "text": "Vai trò lãnh đạo, quản lí có hiệu quả của nhà nước."
+      },
+      {
+        "label": "C",
+        "text": "Các công ty năng động có tầm nhìn xa, sức cạnh tranh cao."
+      },
+      {
+        "label": "D",
+        "text": "Con người được đào tạo chu đáo và áp dụng thành tựu khoa học-kĩ thuật."
+      }
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 66,
+    "question": "Ngày 14/4/2018, Mỹ và đồng minh bắn hơn 100 quả tên lửa và Siri với lí do quân đội của chỉnh phủ Siri sử dụng vũ khí hóa học ở Đuma mặc dù chưa có bằng chứng xác thực. Hành động trên đây của Mĩ và đồng minh Mĩ chứng tỏ",
+    "choices": [
+      {
+        "label": "A",
+        "text": "chính sách \"cây gậy và củ cà rốt\" của Mĩ."
+      },
+      {
+        "label": "B",
+        "text": "Mĩ có tránh nhiệm bảo vệ hòa bình thế giới."
+      },
+      {
+        "label": "C",
+        "text": "Mĩ thể hiện trách nhiệm chống sử dụng vũ khí hóa học."
+      },
+      {
+        "label": "D",
+        "text": "sự thi hành chính sách áp đảo và cường quyền của Mỹ."
+      }
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 67,
+    "question": "Hội nghị lần thứ 8 Ban chấp hành Trung ương Đảng cộng sản Đông Dương xác định mâu thuẫn cơ bản của xã hội Việt Nam là giữa nhân dân Việt Nam với",
+    "choices": [
+      {
+        "label": "A",
+        "text": "đế quốc phát xít Pháp - Nhật.\tB. thực dân Pháp."
+      },
+      {
+        "label": "C",
+        "text": "phát xít Nhật.\tD. thực dân Pháp và phong kiến."
+      }
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 68,
+    "question": "Ba loại chiến lược \"chiến tranh Đặc Biệt\", \"chiến tranh Cục Bộ', \"Việt Nam hóa Chiến Tranh'của Mĩ ở Việt Nam có điểm gì giống nhau ?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Quân đội Mĩ và quân đội Sài Gòn mở rộng chiến tranh ra toàn Đông Dương"
+      },
+      {
+        "label": "B",
+        "text": "Sử dụng quân đội Sài Gòn,do Mĩ chỉ huy,vũ khí và phương tiện chiến tranh của Mĩ"
+      },
+      {
+        "label": "C",
+        "text": "Sử dụng quân Mĩ và đồng minh của Mĩ,với sự viện trợ quân sự cho quân đội Sài Gòn"
+      },
+      {
+        "label": "D",
+        "text": "Có cố vấn Mĩ chỉ huy,tranh thủ ngoại giao với Liên Xô,Trung Quốc để cô lập ta"
+      }
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 69,
+    "question": "Điểm khác nhau trong một số luận điểm cơ bản của Luận cương chính trị 10/1930 với Cương lĩnh chính trị đầu tiên là gì?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Về giai cấp lãnh đạo cách mạng."
+      },
+      {
+        "label": "B",
+        "text": "Về mối quan hệ giữa cách mạng Việt Nam và cách mạng thế giới."
+      },
+      {
+        "label": "C",
+        "text": "Về đường lối chiến lược cách mạng."
+      },
+      {
+        "label": "D",
+        "text": "Về mối quan hệ giữa hai nhiệm vụ dân tộc và dân chủ, về lực lượng cách mạng."
+      }
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 70,
+    "question": "Điểm khác nhau cơ bản giữa Cương lĩnh chính trị đầu tiên và Luận cương chính trị của Đảng năm 1930 thể hiện ở",
+    "choices": [
+      {
+        "label": "A",
+        "text": "đường lối, nhiệm vụ cách mạng.\tB. Mục tiêu và hình thức đấu tranh."
+      },
+      {
+        "label": "C",
+        "text": "nhiệm vụ, lực lượng cách mạng.\tD. lực lượng tham gia và giai cấp lãnh đạo."
+      }
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 71,
+    "question": "Phong trào cách mạng 1930-1931 và cao trào kháng Nhật cứu nước năm 1945 ở Việt Nam có điểm tương đồng nào dưới đây?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Sử dụng các hình thức đấu tranh phong phú, quyết liệt."
+      },
+      {
+        "label": "B",
+        "text": "Đề ra những mục tiêu và hình thức đấu tranh mới."
+      },
+      {
+        "label": "C",
+        "text": "Tổ chức các lực lượng yêu nước trong mặt trận dân tộc thống nhất."
+      },
+      {
+        "label": "D",
+        "text": "Để lại bài học về xây dựng khối liên minh công-nông."
+      }
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 72,
+    "question": "Nội dung nào dưới đây phản ánh đúng giá trị của chiến thắng Đường số 14 - Phước Long (tháng 1 - 1975) đối với việc củng cố quyết tâm và hoàn thành kế hoạch giải phóng miền Nam của Đảng Lao động Việt Nam?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Trận trinh sát chiến lược.\tB. Trận mở màn chiến lược."
+      },
+      {
+        "label": "C",
+        "text": "Trận nghi binh chiến lược.\tD. Trận tập kích chiến lược."
+      }
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 73,
+    "question": "Điểm giống nhau cơ bản giữa \"Cương lĩnh chính trị đầu tiên\" (đầu năm 1930) với Luận cương chính trị (10/1930)?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Xác định đúng đắn khả năng tham gia cách mạng của các giai cấp."
+      },
+      {
+        "label": "B",
+        "text": "Xác định đúng đắn mâu thuẫn trong xã hội Đông Dương."
+      },
+      {
+        "label": "C",
+        "text": "Xác định đúng đắn giai cấp lãnh đạo cách mạng."
+      },
+      {
+        "label": "D",
+        "text": "Xác định đúng đắn khả năng của tiểu tư sản trong cách mạng."
+      }
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 74,
+    "question": "Việc kí kết và thi hành Hiệp định Giơnevơ đã tạo ra sự chuyển biến như thế nào đối với cách mạng Việt Nam ngay sau năm 1954?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Chuyển từ thế bị động phòng ngự sang thế tiến công về chiến lược"
+      },
+      {
+        "label": "B",
+        "text": "Chuyển từ thế giữ gìn lực lượng sang thế tiến công về chiến lược."
+      },
+      {
+        "label": "C",
+        "text": "Chuyển từ thế tiến công về chiến lược sang thế giữ gìn lực lượng."
+      },
+      {
+        "label": "D",
+        "text": "Chuyển từ thế bị động sang thế chủ động."
+      }
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 75,
+    "question": "\"Hai mươi năm trước ở nơi này",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Pác - Bó (Cao Bằng).\tB. Võ Nhai (Thái Nguyên)."
+      },
+      {
+        "label": "C",
+        "text": "Bắc Sơn (Lạng Sơn).\tD. Tân Trào (Tuyên Quang)."
+      }
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 76,
+    "question": "Yếu tố nào dưới đây đã làm thay đổi sâu sắc \"bản đồ chính trị thế giới\" sau Chiến tranh thế giới thứ hai?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Trật tự hai cực Ianta được xác lập trên thế giới."
+      },
+      {
+        "label": "B",
+        "text": "Cục diện chiến tranh lạnh bao trùm thế giới."
+      },
+      {
+        "label": "C",
+        "text": "Sự thắng lợi của phong trào giải phóng dân tộc"
+      },
+      {
+        "label": "D",
+        "text": "Chủ nghĩa xã hội trở thành hệ thống thế giới."
+      }
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 77,
+    "question": "Một trong những ý nghĩa quốc tế to lớn của Cách mạng tháng Mười Nga là",
+    "choices": [
+      {
+        "label": "A",
+        "text": "cổ vũ và để lại nhiều bài học kinh nghiệp quý báu cho phong trào cách mạng thế giới."
+      },
+      {
+        "label": "B",
+        "text": "đưa đến sự thành lập tổ chức quốc tế mới của giai cấp công nhân quốc tế."
+      },
+      {
+        "label": "C",
+        "text": "tạo thế cân bằng trong so sánh lực lượng giữa chủ nghĩa xã hội và chủ nghĩa tư bản."
+      },
+      {
+        "label": "D",
+        "text": "đập tan ách áp bức bóc lột phong kiến trên toàn thế giới."
+      }
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 78,
+    "question": "Quyết định nào của hội nghị ban chấp hành Trung ương Đảng cộng sản Đông Dương lần thứ 8 (5 - 1941) được coi là một điển hình sáng tạo trong việc vận dụng chủ nghĩa Mác - Lênin về khởi nghĩa vũ trang vào Việt Nam?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Khởi nghĩa vũ trang giành chính quyền là nhiệm vụ trung tâm của toàn Đảng, toàn dân."
+      },
+      {
+        "label": "B",
+        "text": "Thành lập mặt trận Việt Minh, tập hợp tất cả các tầng lớp, giai cấp vào cuộc đấu tranh giải phóng dân tộc."
+      },
+      {
+        "label": "C",
+        "text": "Giải quyết vấn đề dân tộc trong khuôn khổ từng nước Đông Dương."
+      },
+      {
+        "label": "D",
+        "text": "Xác định hình thái của khởi nghĩa ở nước ta là đi từ khởi nghĩa từng phần tiến lên tổng khởi nghĩa."
+      }
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 79,
+    "question": "Tính chất chính nghĩa của cuộc kháng chiến biểu hiện ở điểm nào  ?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Quyết tâm kháng chiến của toàn dân ta.\tB. Nội dung đường lối kháng chiến."
+      },
+      {
+        "label": "C",
+        "text": "Mục đích của kháng chiến.\tD. Chủ trương kháng chiến của Đảng ta."
+      }
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 80,
+    "question": "Tên mặt trận \"Việt Nam độc lập đồng minh\" thành lập năm 1941 vừa thể hiện nhiệm vụ cách mạng trong nước vừa góp phần thực hiện nhiệm vụ quốc tế vì",
+    "choices": [
+      {
+        "label": "A",
+        "text": "giải quyết vấn đề dân tộc trong khuôn khổ từng nước Đông Dương"
+      },
+      {
+        "label": "B",
+        "text": "nguyện đứng về phía phe đồng minh chống phát xít để giành độc lập."
+      },
+      {
+        "label": "C",
+        "text": "tập hợp lực lượng cả dân tộc, thực hiện nhiệm vụ giải phóng dân tộc."
+      },
+      {
+        "label": "D",
+        "text": "tạm gác khẩu hiệu cách mạng ruộng đất để tập trung vào vấn đề dân tộc."
+      }
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 81,
+    "question": "Nhận xét nào dưới đây về phong trào cách mạng 1930 -1931 ở Việt Nam là không đúng ?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Đây là phong trào cách mạng có hình thức đấu tranh quyết liệt."
+      },
+      {
+        "label": "B",
+        "text": "Đây là phong trào cách mạng đậm tính dân tộc hơn tính giai cấp"
+      },
+      {
+        "label": "C",
+        "text": "Đây là phong trào cách mạng diễn ra trên quy mô rộng lớn."
+      },
+      {
+        "label": "D",
+        "text": "Đây là phong trào cách mạng triệt để, không ảo tưởng vào kẻ thù dân tộc."
+      }
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 82,
+    "question": "Đặc điểm nổi bật của quan hệ quốc tế từ sau Chiến tranh thế giới thứ hai đến đầu những năm 70 của thế kỷ XX là gì?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Hai siêu cường Xô - Mỹ đối thoại, hợp tác\tB. Hòa bình, hợp tác trở thành xu thế chủ đạo"
+      },
+      {
+        "label": "C",
+        "text": "Hai siêu cường Xô - Mỹ đối đầu gay gắt\tD. Hợp tác chính trị - văn hóa là xu thế chủ đạo"
+      }
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 83,
+    "question": "Điểm mới của Nghị quyết Hội nghị lần thứ 8 Ban Chấp hành Trung ương tháng 5 - 1941 so với Luận cương chính trị tháng 10 - 1930 của Đảng Cộng sản Đông Dương là chủ trương",
+    "choices": [
+      {
+        "label": "A",
+        "text": "thành lập chính quyền nhà nước của toàn dân tộc"
+      },
+      {
+        "label": "B",
+        "text": "thành lập ở mỗi nước Đông Dương một đảng riêng."
+      },
+      {
+        "label": "C",
+        "text": "hoàn thành triệt để nhiệm vụ cách mạng ruộng đất."
+      },
+      {
+        "label": "D",
+        "text": "thành lập hình thức chính quyền công nông binh."
+      }
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 84,
+    "question": "Nguyên nhân quan trọng nhất dẫn đến sự thắng lợi của cả hai chiến dịch Việt Bắc thu đông 1947 và chiến dịch Biên giới thu - đông 1950?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Do đường lối kháng chiến chống Pháp đúng đắn."
+      },
+      {
+        "label": "B",
+        "text": "Sự lãnh đạo tài tình, sáng suốt của Đảng đứng đầu là Hồ Chí Minh."
+      },
+      {
+        "label": "C",
+        "text": "Do sự giúp đỡ nhiệt tình của các nước xã hội chủ nghĩa trên thế giới."
+      },
+      {
+        "label": "D",
+        "text": "Tinh thần đoàn kết chiến đấu của quân và dân ta."
+      }
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 85,
+    "question": "Một trong những bài học kinh nghiệm rút ra từ thắng lợi của Cách mạng tháng Tám năm 1945 có thể vận dụng trong sự nghiệp xây dựng và bảo vệ Tổ quốc Việt Nam hiện nay là",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Xây dựng lực lượng vũ trang nhân dân là nhiệm vụ hàng đầu."
+      },
+      {
+        "label": "B",
+        "text": "Kết hợp đấu tranh quân sự với đấu tranh chính trị, ngoại giao."
+      },
+      {
+        "label": "C",
+        "text": "Tăng cường liên minh chiến đấu giữa ba nước Đông Dương."
+      },
+      {
+        "label": "D",
+        "text": "Kết hợp sức mạnh của dân tộc với sức mạnh của thời đại."
+      }
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 86,
+    "question": "Chỉ ra điểm không phản ánh đúng điểm giống nhau trong các chiến lược chiến tranh mà đế quốc Mĩ tiến hành ở miền Nam Việt Nam giai đoạn 1954 - 1975.",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Đều sử dụng chính sách bình định để chiếm đất giành dân"
+      },
+      {
+        "label": "B",
+        "text": "Nhằm chia cắt lâu dài nước ta, biến miền Nam Việt Nam thành thuộc địa kiểu mới"
+      },
+      {
+        "label": "C",
+        "text": "Đều là hình thức chiến tranh xâm lược thực dân kiểu mới của Mĩ"
+      },
+      {
+        "label": "D",
+        "text": "Có sự trợ giúp của quân đội các nước đồng minh như Anh, Pháp"
+      }
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 87,
+    "question": "Cách mạng tháng Tám năm 1945 ở Việt Nam và cách mạng tháng Mười năm 1917 ở Nga có điểm chung nào sau đây?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Sử dụng bạo lực cách mạng của quần chúng."
+      },
+      {
+        "label": "B",
+        "text": "Nhiệm vụ chủ yếu là chống chủ nghĩa thực dân."
+      },
+      {
+        "label": "C",
+        "text": "Nổ ra đồng thời ở cả nông thôn và thành thị."
+      },
+      {
+        "label": "D",
+        "text": "Đối tượng đấu tranh chủ yếu là giai cấp tư sản."
+      }
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 88,
+    "question": "Nghệ thuật quân sự trong cuộc chiến đấu chống Pháp của quân dân Việt Nam ở các đô thị phía Bắc vĩ tuyến 16 (1946 - 1947) có nét độc đáo là gì?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Chủ động tấn công và chủ động rút lui.\tB. Tiêu hao sinh lực địch tại đô thị."
+      },
+      {
+        "label": "C",
+        "text": "Kết hợp giữa tiến công và nổi dậy.\tD. Bao vây, chia cắt, cô lập địch."
+      }
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 89,
+    "question": "Cuộc Tổng khởi nghĩa tháng Tám năm 1945 của nhân dân Việt Nam diễn ra",
+    "choices": [
+      {
+        "label": "A",
+        "text": "kết hợp giữa thành thị và nông thôn; thắng lợi ở nông thôn có ý nghĩa quyết định."
+      },
+      {
+        "label": "B",
+        "text": "kết hợp giữa thành thị và nông thôn; thắng lợi ở thành thị có ý nghĩa quyết định."
+      },
+      {
+        "label": "C",
+        "text": "từ thành thị đến nông thôn; thắng lợi ở nông thôn có ý nghĩa quyết định"
+      },
+      {
+        "label": "D",
+        "text": "từ nông thôn đến thành thị; thắng lợi ở thành thị có ý nghĩa quyết định."
+      }
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 90,
+    "question": "Căn cứ địa cách mạng là nơi cần có những điều kiện thuận lợi, trong đó \"nhân hòa\" là yếu tố quan trọng nhất. Đâu là yếu tố \"nhân hòa\" để Nguyễn Ái Quốc chọn Cao Bằng làm nơi xây dựng căn cứ địa vào năm 1941?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Có lực lượng du kích phát triển sớm.\tB. Sớm hình thành các Hội Cứu quốc."
+      },
+      {
+        "label": "C",
+        "text": "Có phong trào quần chúng tốt từ trước\tD. Mọi người đều tham gia Việt Minh."
+      }
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 91,
+    "question": "Việc mở rộng thành viên của Hiệp hội các quốc gia Đông Nam Á (ASEAN)diễn ra lâu dài và đầy trở ngại chủ yếu là do",
+    "choices": [
+      {
+        "label": "A",
+        "text": "tác động của cuộc Chiến tranh lạnh và cục diện hai cực, hai phe."
+      },
+      {
+        "label": "B",
+        "text": "có nhiều khác biệt về văn hóa giữa các quốc gia dân tộc."
+      },
+      {
+        "label": "C",
+        "text": "các nước thực hiện chiến lược phát triển kinh tế khác nhau."
+      },
+      {
+        "label": "D",
+        "text": "nguyên tắc hoạt động của ASEAN không phù hợp với một số nước."
+      }
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 92,
+    "question": "Điểm giống nhau về quy mô giữa chiến dịch Điện Biên Phủ (1954) và Chiến dịch Hồ Chí Minh (1975) là gì?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Tiêu diệt và làm tan rã toàn bộ cơ quan đầu não của địch."
+      },
+      {
+        "label": "B",
+        "text": "Sử dụng hầu hết các binh chủng, quân chủng."
+      },
+      {
+        "label": "C",
+        "text": "Huy động đến mức cao nhất về lực lượng."
+      },
+      {
+        "label": "D",
+        "text": "Tấn công vào tập đoàn cứ điểm mạnh."
+      }
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 93,
+    "question": "Hạn chế trong chủ trương cứu nước của Phan Bội Châu và Phan Châu Trinh đầu thế kỉ XX để lại bài học kinh nghiệm nào sau đây cho cuộc đấu tranh giải phóng dân tộc ở Việt Nam?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Sự giúp đỡ từ bên ngoài là điều kiện tiên quyết để phát động đấu tranh."
+      },
+      {
+        "label": "B",
+        "text": "Không sử dụng phương thức bạo động để chống lại kẻ thù lớn mạnh."
+      },
+      {
+        "label": "C",
+        "text": "Chỉ phát động quần chúng đấu tranh khi có lực lượng vũ trang lớn mạnh."
+      },
+      {
+        "label": "D",
+        "text": "Phân tích tình hình thực tiễn để xác định phương thức đấu tranh phù hợp."
+      }
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 94,
+    "question": "Nguyên  tắc \"Giải quyết các tranh chấp quốc tế bằng biện pháp hòa bình\"của liên hợp quốc được Việt Nam vận dụng để giải quyết ấn đề chủ yếu nào của đất nước hiện nay?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Cộng nghiệp hóa hiện đại hóa đất nước"
+      },
+      {
+        "label": "B",
+        "text": "Chủ quyền Biên giới ,Biển ,Hải đảo và tòan vẹn Lãnh thổ"
+      },
+      {
+        "label": "C",
+        "text": "Xây dựng,phát triển nền kinh tế thị trường định hướng Xã hội Chủ nghĩa"
+      },
+      {
+        "label": "D",
+        "text": "Nâng cao vị thế cả Viêt Nam trên trường quốc tế"
+      }
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 95,
+    "question": "Hội nghị lần thứ 15 Ban chấp hành trung đảng (1-1959) đã để lại bài học kinh nghiệm nào sau đây cho Đảng trong kháng chiến chống Mỹ cứu nước?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Sử dụng con đường đấu tranh chính trị kết hợp với đấu tranh vũ trang."
+      },
+      {
+        "label": "B",
+        "text": "Kiên trì con đường đấu tranh vũ trang giành chính quyền."
+      },
+      {
+        "label": "C",
+        "text": "Sử dụng con đường đấu tranh ngoại giao giành chính quyền."
+      },
+      {
+        "label": "D",
+        "text": "Sử dụng bạo lực cách mạng giành chính quyền về tay nhân dân."
+      }
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 96,
+    "question": "Trong những năm 1945-1954, để cứu vãn nền hòa bình ở Đông Dương, Đảng,Chính phủ ta thể hiện chí hòa bình thông qua nhiều văn kiện quan trọng,ngoại trừ",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Hiệp định Sơ bộ (3-1946).\tB. Kháng chiến nhất định thắng lợi (9-1947)."
+      },
+      {
+        "label": "C",
+        "text": "Tạm ước (9-1946).\tD. Hiệp định Giơnevơ  về Đông Dương (7-1954)."
+      }
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 97,
+    "question": "Trong hai cuộc kháng chiến chống đế quốc xâm lược (1945 - 1975), nhân dân Việt Nam đã giành thắng lợi bằng việc",
+    "choices": [
+      {
+        "label": "A",
+        "text": "dùng sức mạnh của nhiều nhân tố thắng sức mạnh quân sự và kinh tế."
+      },
+      {
+        "label": "B",
+        "text": "dùng sức mạnh của vật chất đánh thắng sức mạnh của ý chí và tinh thần"
+      },
+      {
+        "label": "C",
+        "text": "lấy số lượng quân đông thắng vũ khí chất lượng cao."
+      },
+      {
+        "label": "D",
+        "text": "lấy lực thắng thế, lấy ít thắng nhiều về quân số."
+      }
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 98,
+    "question": "Chiến dịch Hồ Chí Minh có ý nghĩa quyết định đối với thắng lợi của cuộc Tổng tiến công và nổi dậy Xuân năm 1975 vì",
+    "choices": [
+      {
+        "label": "A",
+        "text": "đập tan đầu não và sào huyệt cuối cùng của chính quyền và quân đội Sài Gòn."
+      },
+      {
+        "label": "B",
+        "text": "mở ra quá trình sụp đổ hoàn toàn của chính quyền và quân đội Sài Gòn."
+      },
+      {
+        "label": "C",
+        "text": "đánh bại hoàn toàn chiến dịch \"tràn ngập lãnh thổ\" của quân đội Sài Gòn."
+      },
+      {
+        "label": "D",
+        "text": "làm cho chính quyền Sài Gòn đứng trước nguy cơ sụp đổ hoàn toàn."
+      }
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 99,
+    "question": "Nguyên nhân cơ bản nhất làm nên thắng lợi của cuộc kháng chiến chống Pháp của nhân dân ta là",
+    "choices": [
+      {
+        "label": "A",
+        "text": "sự đoàn kết, tinh thần chiến đấu dũng cảm của nhân dân ta."
+      },
+      {
+        "label": "B",
+        "text": "có lực lượng vũ trang không ngừng lớn mạnh."
+      },
+      {
+        "label": "C",
+        "text": "sự lãnh đạo đúng đắn của Đảng."
+      },
+      {
+        "label": "D",
+        "text": "có hậu phương rộng lớn."
+      }
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 100,
+    "question": "Trong thời kỳ đấu tranh chống Mĩ cứu nước, nhân dân Việt Nam luôn thể hiện chân  lí",
+    "choices": [
+      {
+        "label": "A",
+        "text": "\"Không có gì quý hơn độc lập tự do\"\tB. \"Nhắm thẳng quân thù mà bắn\""
+      },
+      {
+        "label": "C",
+        "text": "\"Tìm Mĩ mà đánh lùng Ngụy mà diệt\"\tD. \"Một tất không đi, một li không rời\""
+      }
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 101,
+    "question": "Vì sao sau Hội nghị 15 Ban chấp hành Trung ương Đảng, phong trào cách mạng Việt Nam có chuyển biến cơ bản ?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Chỉ đạo đấu tranh chính trị."
+      },
+      {
+        "label": "B",
+        "text": "Đi từ khởi nghĩa từng phần tiến lên tổng khởi nghĩa."
+      },
+      {
+        "label": "C",
+        "text": "Chỉ đạo dùng bạo lực cách mạng."
+      },
+      {
+        "label": "D",
+        "text": "Chỉ đạo giành chính quyền."
+      }
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 102,
+    "question": "Nhận xét nào dưới đây là không đúng về cuộc Cách mạng tháng Tám năm 1945 ở Việt Nam?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Đây là một cuộc cách mạng có tính chất bạo lực."
+      },
+      {
+        "label": "B",
+        "text": "Đây là cuộc cách mạng diễn ra mau lẹ, kịp thời."
+      },
+      {
+        "label": "C",
+        "text": "Đây là cuộc cách mạng chỉ có tính chất dân tộc."
+      },
+      {
+        "label": "D",
+        "text": "Đây là cuộc cách mạng được chuẩn bị chu đáo."
+      }
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 103,
+    "question": "Việt Nam gia nhập ASEAN có ý nghĩa gì?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Chứng tỏ sự hợp tác giữa các thành viên ASEAN ngày càng có hiệu quả."
+      },
+      {
+        "label": "B",
+        "text": "Mở ra triển vọng cho sự liên kết toàn khu vực Đông Nam Á."
+      },
+      {
+        "label": "C",
+        "text": "Chứng tỏ sự đối đầu về ý thức hệ tư tưởng - chính trị - quân sự."
+      },
+      {
+        "label": "D",
+        "text": "ASEAN đã trở thành một liên minh kinh tế - chính trị."
+      }
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 104,
+    "question": "Mục tiêu quan trọng nhất của Mỹ trong chiến lược toàn cầu là",
+    "choices": [
+      {
+        "label": "A",
+        "text": "ngăn chặn, đẩy lùi và tiến tới xóa bỏ chủ nghĩa xã hội trên thế giới."
+      },
+      {
+        "label": "B",
+        "text": "khống chế, chi phối các nước tư bản đồng minh phụ thuộc vào Mỹ."
+      },
+      {
+        "label": "C",
+        "text": "vươn lên thành cường quốc về kinh tế-tài chính để chi phối cả thế giới."
+      },
+      {
+        "label": "D",
+        "text": "đàn áp phong trào giải phóng dân tộc, phong trào công nhân và các cộng sản quốc tế."
+      }
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 105,
+    "question": "Ý nào không phải là lí do mà vào những năm đầu thế kỉ XX một số nhà yêu nước Việt Nam muốn đi theo con đường cứu nước của Nhật Bản?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Nhật Bản là nước \"đồng văn, đồng chủng\",  là nước duy nhất ở châu Á thoát khỏi số phận một nước thuộc địa."
+      },
+      {
+        "label": "B",
+        "text": "Nhật Bản đã đề ra thuyết \"Đại Đông Á\" nhằm mở rộng ảnh hưởng ở khu vực Đông Á, trong đó có Việt Nam"
+      },
+      {
+        "label": "C",
+        "text": "Sau Cải cách Minh Trị, Nhật Bản trở thành nước tư bản hùng mạnh."
+      },
+      {
+        "label": "D",
+        "text": "Nhật Bản dã đánh thắng đế quốc Nga (1905)."
+      }
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 106,
+    "question": "\"Nếu không giải quyết được vấn đề dân tộc giải phóng, không đòi được độc lập lự do cho toàn thể dân tộc thì chẳng những quốc gia dân tộc còn chịu mãi kiếp ngựa trâu mà quyền lợi của bộ phận giai cấp đến vạn năm cũng không đòi lại được.\" Nội dung trên được trích trong văn kiện của hội nghị nào?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Hội nghị thành lập Đảng Cộng sản Việt Nam."
+      },
+      {
+        "label": "B",
+        "text": "Hội nghị Ban Chấp hành Trung ương Đảng Cộng sản Đông Dương tháng 11-1940."
+      },
+      {
+        "label": "C",
+        "text": "Hội nghị lần thứ 8 BCH Trung ương Đảng Cộng sản Đông Dương (5-1941)."
+      },
+      {
+        "label": "D",
+        "text": "Hội nghị Ban Chấp hành Trung ương Đảng Cộng sản Đông Dương tháng 11-1939."
+      }
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 107,
+    "question": "Điểm sáng tạo nhất của Nguyễn Ái Quốc trong quá trình vận động thành lập Đảng Cộng sản Việt Nam là gì?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Thành lập Cộng sản đoàn."
+      },
+      {
+        "label": "B",
+        "text": "Thành lập Tâm tâm xã."
+      },
+      {
+        "label": "C",
+        "text": "Thành lập Hội Việt Nam Cách mạng Thanh niên."
+      },
+      {
+        "label": "D",
+        "text": "Thành lập Việt Nam Quốc dân đảng."
+      }
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 108,
+    "question": "Ý nghĩa lớn nhất đối với cách mạng Việt Nam trong chiến thắng Việt Bắc thu - đông năm 1947 là",
+    "choices": [
+      {
+        "label": "A",
+        "text": "chứng tỏ bộ đội chủ lực của ta ngày càng trưởng thành ."
+      },
+      {
+        "label": "B",
+        "text": "chứng tỏ khả năng quân dân ta có thể đẩy lùi những cuộc tấn công của Pháp."
+      },
+      {
+        "label": "C",
+        "text": "cơ quan đầu não kháng chiến của ta được bảo toàn."
+      },
+      {
+        "label": "D",
+        "text": "buộc Pháp phải chuyển từ \"đánh nhanh thắng nhanh\" sang đánh lâu dài với ta."
+      }
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 109,
+    "question": "Bài học từ việc kí kết Hiệp định Sơ bộ (1946), Giơnevơ (1954) về Đông Dương, Pari(1973) về Việt Nam được vận dụng trong hoạt động ngoại giao hiện nay là",
+    "choices": [
+      {
+        "label": "A",
+        "text": "chỉ đảm bảo nguyên tắc thống nhất đất nước\tB. nhân nhượng đến cùng để giữ vững hòa bình."
+      },
+      {
+        "label": "C",
+        "text": "không vi phạm chủ quyền quốc gia, dân tộc.\tD. tranh thủ không điều kiện sự giúp đỡ quốc tế."
+      }
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 110,
+    "question": "Điểm chung về hoạt động quân sự của quân dân Việt Nam trong các chiến dịch Việt Bắc thu - đông năm 1947, Biên giới thu - đông năm 1950 và Điện Biên Phủ năm 1954 là có sự kết hợp giữa",
+    "choices": [
+      {
+        "label": "A",
+        "text": "đánh điểm, diệt viện và đánh vận động.\tB. bao vây, đánh lấn và đánh úp."
+      },
+      {
+        "label": "C",
+        "text": "tiến công quân sự và nổi dậy của nhân dân.\tD. chiến trường chính và vùng sau lưng địch."
+      }
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 111,
+    "question": "\"Một trong những tiến bộ của phong trào yêu nước Việt Nam đầu thế kỉ XX là ở quan niệm về phong trào yêu nước\". Đây là nhận định",
+    "choices": [
+      {
+        "label": "A",
+        "text": "đúng, vì các sĩ phu đưa ra vấn đề yêu nước phải gắn với xây dựng xã hội tiến bộ."
+      },
+      {
+        "label": "B",
+        "text": "sai, vì khuynh hướng cứu nước mới của các sĩ phu không đem đến sự thành công."
+      },
+      {
+        "label": "C",
+        "text": "sai, vì phạm trù yêu nước thương dân luôn ăn sâu vào tư tưởng dân tộc ta."
+      },
+      {
+        "label": "D",
+        "text": "đúng, vì hoạt động các sĩ phu gắn với khái niệm \"dân quyền, dân chủ\"."
+      }
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 112,
+    "question": "Trong thời kỳ 1954 - 1975, đâu là một trong những nguyên nhân trực tiếp làm cho Việt Nam trở thành nơi diễn ra \"sự kiện có tầm quan trọng quốc tế to lớn và có tính thời đại sâu sắc\"?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Việt Nam chịu sự chi phối của cục diện hai cực, hai phe."
+      },
+      {
+        "label": "B",
+        "text": "Hiệp định Giơnevơ chia cắt Việt Nam thành hai miền."
+      },
+      {
+        "label": "C",
+        "text": "Phe xã hội chủ nghĩa ủng hộ Việt Nam chống Mỹ."
+      },
+      {
+        "label": "D",
+        "text": "Mỹ chuyển trọng tâm chiến lược toàn cầu sang Việt Nam."
+      }
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 113,
+    "question": "Sự kiện nào dưới đây mở ra bước ngoặt mới cho chính sách \"đa phương hóa\", \"đa dạng hóa\" quan hệ đối ngoại của Việt Nam?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Việt Nam tham gia tổ chức WTO (2007)."
+      },
+      {
+        "label": "B",
+        "text": "Việt Nam gia nhập Liên hợp quốc (1977)."
+      },
+      {
+        "label": "C",
+        "text": "Việt Nam trở thành thành viên thứ 7 của ASEAN (1995)."
+      },
+      {
+        "label": "D",
+        "text": "Việt Nam tham gia vào Hội đồng tương trợ kinh tế SEV (1978)."
+      }
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 114,
+    "question": "Điểm khác biệt về phương châm tác chiến của chiến dịch Hồ Chí Minh (1975) so với chiến dịch Điện Biên Phủ (1954)?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Thần tốc, táo bạo, bất ngờ.\tB. Đánh chắc, tiến chắc."
+      },
+      {
+        "label": "C",
+        "text": "Tấn công vào cơ quan đầu não của kẻ thù.\tD. Đánh vào cứ điểm quan trọng nhất của địch."
+      }
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 115,
+    "question": "Việt Nam có thể rút ra kinh nghiệm gì từ sự phát triển kinh tế của nhóm 5 nước sáng lập ASEAN sau Chiến tranh thế giới thứ hai?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Tập trung sản xuất hàng hóa để xuất khẩu, phát triển ngoại thương."
+      },
+      {
+        "label": "B",
+        "text": "Đẩy mạnh sản xuất hàng tiêu dùng nội địa, thay thế hàng nhập khẩu."
+      },
+      {
+        "label": "C",
+        "text": "Xây dựng nền kinh tế tự chủ kết hợp với mở cửa, hội nhập khu vực, quốc tế."
+      },
+      {
+        "label": "D",
+        "text": "Xây dựng nền kinh tế tự chủ kết hợp với nền văn hóa tiên tiến, đậm đà bản sắc dân tộc."
+      }
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 116,
+    "question": "Nhân tố nào không giữ vai trò quyết định  sự thành công của CM tháng Tám 1945?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Phe Đồng minh đánh bại CNPX, tạo điều kiện thuận lợi cho Cách mạng VN"
+      },
+      {
+        "label": "B",
+        "text": "Sự lãnh đạo của ĐCS Đ D, do Hồ Chí Minh đứng đầu"
+      },
+      {
+        "label": "C",
+        "text": "Sự đoàn kết, đồng lòng của toàn Đảng, toàn dân"
+      },
+      {
+        "label": "D",
+        "text": "Tinh thần yêu nước, chiến đấu kiên cường của nhân dân ta"
+      }
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 117,
+    "question": "Điểm giống nhau giữa chiến dịch Điên Biên Phủ (1954) và chiến dịch Hồ Chí Minh (1975) là",
+    "choices": [
+      {
+        "label": "A",
+        "text": "một cuộc tiến công chiến lược, đánh vào một tập đoàn cứ điểm."
+      },
+      {
+        "label": "B",
+        "text": "những thắng lợi có ý nghĩa quyết định kết thúc cuộc kháng chiến."
+      },
+      {
+        "label": "C",
+        "text": "đánh chắc tiến chắc, tiến công tiêu diệt từng cụm cứ điểm của địch."
+      },
+      {
+        "label": "D",
+        "text": "cuộc tiến công của lực lượng vũ trang và nổi dậy của quần chúng"
+      }
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 118,
+    "question": "Đặc điểm nổi bật của phong trào dân tộc, dân chủ ở Việt Nam trong những năm 1919 - 1930 là gì ?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Diễn ra cuộc đấu tranh giành quyền lãnh đạo cách mạng giữa hai khuynh hướng vô sản và dân chủ tư sản."
+      },
+      {
+        "label": "B",
+        "text": "Phong trào công nhân phát triển từ tự phát sang tự giác"
+      },
+      {
+        "label": "C",
+        "text": "Khuynh hướng cách mạng dân tộc tư sản phát triển mạnh mẽ."
+      },
+      {
+        "label": "D",
+        "text": "Khuynh hướng cách mạng dân tộc tư sản phát triển mạnh mẽ."
+      }
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 119,
+    "question": "Nội dung nào không phản ánh bài học kinh nghiệm quý báu được rút ra từ thực tế cách mạng nước ta từ năm 1930 đến năm 1975?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Nắm vững ngọn cờ độc lập dân tộc và chủ nghĩa xã hội."
+      },
+      {
+        "label": "B",
+        "text": "Tăng cường liên minh quân sự với các nước để đánh kẻ thù."
+      },
+      {
+        "label": "C",
+        "text": "Sự nghiệp cách mạng là của nhân dân, do nhân dân, vì nhân dân."
+      },
+      {
+        "label": "D",
+        "text": "Sự lãnh đạo đúng đắn của Đảng là nhân tố quyết định thắng lợi của cách mạng."
+      }
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 120,
+    "question": "Sự thành công trong năm nước sáng lập ASEAN trong quá trình xây dựng và phát triển đất nước, các nước đang phát triển ở Đông Nám Á có thể rút ra bài học nào để hội nhập kinh tế quốc tế?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Giải quyết nạn thất nghiệp và ưu tiên phát triển công nghiệp nặng."
+      },
+      {
+        "label": "B",
+        "text": "Mở cửa nền kinh tế, thu hút vốn đầu tư và kĩ thuật của nước ngoài."
+      },
+      {
+        "label": "C",
+        "text": "Ưu tiên sản xuất hàng tiêu dùng nội địa để chiếm lĩnh thị trường."
+      },
+      {
+        "label": "D",
+        "text": "Xây dựng nền kinh tế tự chủ, chú trọng phát triển ngoại thương."
+      }
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 121,
+    "question": "Cách mạng dân tộc dân chủ (1946 - 1949) ở Trung Quốc và cách mạng tháng Tám năm 1945 ở Việt Nam có điểm gì giống nhau?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Là một cuộc nội chiến giữa các thế lực trong nước."
+      },
+      {
+        "label": "B",
+        "text": "Xóa bỏ tàn dư phong kiến và ách thống trị của đế quốc."
+      },
+      {
+        "label": "C",
+        "text": "Xóa bỏ quyền lợi và ách nô dịch của thực dân."
+      },
+      {
+        "label": "D",
+        "text": "Tăng cường sức mạnh phe xã hội chủ nghĩa."
+      }
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 122,
+    "question": "Trong những năm chủ nghĩa xã hội ở Liên Xô và Đông Âu lâm vào khủng hoảng, Đảng và Nhà nước Việt Nam cho rằng",
+    "choices": [
+      {
+        "label": "A",
+        "text": "công cuộc xây dựng chủ nghĩa xã hội ở Việt Nam không chịu tác động, nhưng cần phải đúc kết bài học kinh nghiệm."
+      },
+      {
+        "label": "B",
+        "text": "hệ thống chủ nghĩa xã hội trên thế giới chịu tác động lớn, nên phải điều chỉnh và tiến hành đổi mới đất nước."
+      },
+      {
+        "label": "C",
+        "text": "chủ nghĩa xã hội ở Việt Nam không chịu tác động từ cuộc khủng hoảng này, nên không cần sự điều chỉnh."
+      },
+      {
+        "label": "D",
+        "text": "mô hình chủ nghĩa xã hội không phù hợp ở châu Âu."
+      }
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 123,
+    "question": "Tổng khởi nghĩa tháng Tám năm 1945 ở Việt Nam thành công cho thấy một cuộc khởi nghĩa thành công cần phải có",
+    "choices": [
+      {
+        "label": "A",
+        "text": "thời cơ và quyết tâm chớp thời cơ."
+      },
+      {
+        "label": "B",
+        "text": "sự chuẩn bị chu đáo và điều kiện khách quan thuận lợi."
+      },
+      {
+        "label": "C",
+        "text": "sự chuẩn bị chu đáo và quyết tâm giành chính quyền."
+      },
+      {
+        "label": "D",
+        "text": "điều kiện chủ quan và khách quan thuận lợi."
+      }
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 124,
+    "question": "Mối quan hệ hợp tác của Liên hiệp quốc với Việt Nam hiện nay là:",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Theo hướng ngày càng sâu rộng và hiệu quả."
+      },
+      {
+        "label": "B",
+        "text": "Thúc đẩy cải cách, xoá đói, giảm nghèo và phát triển bền vững."
+      },
+      {
+        "label": "C",
+        "text": "Viện trợ không hoàn lại, hỗ trợ Việt Nam phát triển kinh tế, văn hoá."
+      },
+      {
+        "label": "D",
+        "text": "Giúp đỡ Việt Nam giải quyết những hậu quả nặng nề của chiến tranh."
+      }
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 125,
+    "question": "Bài học kinh nghiệm lớn nhất của Việt Nam trong công tác xây dựng Mặt trận dân tộc thống nhất giai đoạn 1930-1945 là gì?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Thành lập các tổ chức yêu nước.\tB. Xây dựng khối đại đoàn kết dân tộc."
+      },
+      {
+        "label": "C",
+        "text": "Tranh thủ sự ủng hộ quốc tế.\tD. Thay đổi tên gọi phù hợp từng thời kì."
+      }
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 126,
+    "question": "Trong cuộc kháng chiến chống Pháp (1946 - 1954), chính sách nào của Đảng và chính phủ Việt Nam Dân chủ Cộng hòa thể hiện sâu sắc quan điểm \"lấy khoan thư sức dân làm kế bền gốc, sâu rễ\"?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Mở cuộc vận động lao động sản xuất và thực hành tiết kiệm."
+      },
+      {
+        "label": "B",
+        "text": "Phát động phong trào thi đua yêu nước."
+      },
+      {
+        "label": "C",
+        "text": "Cải cách ruộng đất và triệt để giảm tô."
+      },
+      {
+        "label": "D",
+        "text": "Đẩy mạnh cải cách giáo dục phổ thông một cách sâu rộng."
+      }
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 127,
+    "question": "So với chiến dịch Điện Biên Phủ 1954 với chiến dịch Hồ Chí Minh 1975 có khác gì về kết quả và ý nghĩa?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Đã đập tan hoàn toàn kế hoạch quân sự của địch"
+      },
+      {
+        "label": "B",
+        "text": "Là dấu mốc kết thúc cuộc chiến tranh giải phóng dân tộc, bảo vệ Tổ quốc, chấm dứt ách thống trị của thực dân đế quốc"
+      },
+      {
+        "label": "C",
+        "text": "Giải phóng hoàn toàn miền Bắc tạo tiền đề hoàn thành cuộc cách mạng dân chủ nhân dân trong cả nước"
+      },
+      {
+        "label": "D",
+        "text": "Làm xoay chuyển cục diện chiến tranh, tạo điều kiện thuận lợi để giành thắng lợi cuối cùng"
+      }
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 128,
+    "question": "Tình hình nước Nga sau Cách mạng tháng Mười năm 1917 và tình hình Việt Nam sau Cách mạng tháng Tám năm 1945 chứng tỏ",
+    "choices": [
+      {
+        "label": "A",
+        "text": "dân tộc và dân chủ là hai nhiệm vụ chiến lược của cách mạng."
+      },
+      {
+        "label": "B",
+        "text": "giành chính quyền là vấn đề cơ bản của mọi cuộc cách mạng."
+      },
+      {
+        "label": "C",
+        "text": "giành và giữ chính quyền chỉ là sự nghiệp của giai cấp vô sản."
+      },
+      {
+        "label": "D",
+        "text": "giành chính quyền đã khó nhưng giữ chính quyền còn khó hơn."
+      }
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 129,
+    "question": "Điểm tương đồng giữa nội dung đổi mới ở Việt Nam (từ 12/1986) với chính sách kinh tế mới(NEP -1921) ở nước Nga Xô Viết là",
+    "choices": [
+      {
+        "label": "A",
+        "text": "thực hiện chế độ chưng thu lương thực thừa."
+      },
+      {
+        "label": "B",
+        "text": "xây dựng kinh tế nhiều thành phần có sự quản lí của Nhà nước."
+      },
+      {
+        "label": "C",
+        "text": "xây dựng nhà nước XHCN của dân - do dân - vì dân."
+      },
+      {
+        "label": "D",
+        "text": "ưu tiên phát triển các ngành công nghiệp nhẹ."
+      }
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 130,
+    "question": "Sự kiện nào chứng tỏ Đảng Cộng sản Đông Dương đã hoàn chỉnh chủ trương chuyển hướng chỉ đạo chiến lược cách mạng Việt Nam thời kì 1930- 1945?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Hội nghị Trung ương lần 8 (tháng 5/1941).\tB. Đại hội quốc dân Tân Trào (16-18/8/1945)."
+      },
+      {
+        "label": "C",
+        "text": "Hội nghị toàn quốc của Đảng (14-15/8/1945).\tD. Hội nghị Trung ương tháng 11/1939)."
+      }
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 131,
+    "question": "Thời cơ ngàn năm có một trong Cách mạng tháng Tám năm 1945 tồn tại trong khoảng thời gian nào?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Từ sau khi Nhật đầu hàng Đồng minh đến  khi quân Đồng Minh vào Đông Dương."
+      },
+      {
+        "label": "B",
+        "text": "Từ sau khi Nhật đầu hàng Đồng minh đến trước khi quân Đồng Minh vào Đông Dương."
+      },
+      {
+        "label": "C",
+        "text": "Từ trước khi Nhật đầu hàng Đồng minh đến trước khi quân Đồng Minh vào Đông Dương."
+      },
+      {
+        "label": "D",
+        "text": "Từ trước khi Nhật đầu hàng Đồng minh đến khi quân Đồng Minh vào Đông Dương."
+      }
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 132,
+    "question": "Điểm giống nhau về hoàn cảnh lịch sử diễn ra hai cuộc Tổng tuyển cử bầu bầu Quốc hội năm 1946 và 1976?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Tình hình đất nước có những điều kiện về kinh tế - xã hội."
+      },
+      {
+        "label": "B",
+        "text": "Được sự giúp đỡ của các nước XHCN và nhân dân tiến bộ thế giới."
+      },
+      {
+        "label": "C",
+        "text": "Đối diện với những nguy cơ đe dọa của thù trong, giặc ngoài."
+      },
+      {
+        "label": "D",
+        "text": "Được tiến hành ngay sau thắng lợi to lớn của cuộc kháng chiến chống ngoại xâm."
+      }
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 133,
+    "question": "Tuyên ngôn Độc lập của nước Việt Nam Dân chủ Cộng hòa có đoạn: \"Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thật đã thành một nước tự do, độc lập\". Đoạn trích trên  khẳng định",
+    "choices": [
+      {
+        "label": "A",
+        "text": "chủ quyền của dân tộc ta trên phương diện pháp lý và thực tiễn."
+      },
+      {
+        "label": "B",
+        "text": "quyền tự quyết của dân tộc Việt Nam."
+      },
+      {
+        "label": "C",
+        "text": "quyết tâm bảo vệ chủ quyền của nhân dân Việt Nam."
+      },
+      {
+        "label": "D",
+        "text": "quyền bình đẳng của dân tộc Việt Nam."
+      }
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 134,
+    "question": "Việc ba tổ chức cộng sản có sự chia rẽ, sau đó được hợp nhất thành Đảng Cộng sản Việt Nam (đầu năm 1930) để lại kinh nghiệm gì cho cách mạng Việt Nam?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Kết hợp hài hòa vấn đề dân tộc và vấn đề giai cấp."
+      },
+      {
+        "label": "B",
+        "text": "Luôn chú trọng đấu tranh chống tư tưởng cục bộ."
+      },
+      {
+        "label": "C",
+        "text": "Xây dựng khối liên minh công nông vững chắc."
+      },
+      {
+        "label": "D",
+        "text": "Xây dựng mặt trận thống nhất dân tộc rộng rãi."
+      }
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 135,
+    "question": "Nhận xét nào dưới đây là đúng về nhà Nguyễn sau khi kí kết các Hiệp ước 1862, 1874, 1883, 1884 ?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Triều đình Huế có lý do để ký các Hiệp ước, việc mất nước Việt Nam vào tay Pháp là do khách quan."
+      },
+      {
+        "label": "B",
+        "text": "Triều đình Huế đã làm hết sức có thể để bảo vệ độc lập."
+      },
+      {
+        "label": "C",
+        "text": "Triều đình Huế thiển cận chỉ mưu lợi ích dòng họ riêng không quan tâm đến lợi ích dân tộc."
+      },
+      {
+        "label": "D",
+        "text": "Triều đình Huế nhu nhược phải chịu trách nhiệm hoàn toàn trong việc để mất nước Việt Nam vào tay thực dân Pháp ở thế kỉ XIX."
+      }
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 136,
+    "question": "Chiến thắng Điện Biên Phủ năm 1954 là thắng lợi quân sự lớn nhất trong cuộc kháng chiến chống Pháp vì",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Buộc Pháp phải kí Hiệp định Gionever về Đông Dương"
+      },
+      {
+        "label": "B",
+        "text": "Đã làm phá sản hoàn toàn kế hoạch Nava"
+      },
+      {
+        "label": "C",
+        "text": "Làm thất bại âm mưu của Mĩ muốn quốc tế hoá chiến tranh Đông Dương"
+      },
+      {
+        "label": "D",
+        "text": "Góp phần làm sụp đổ chủ nghĩa thực dân kiểu cũ trên thế giới"
+      }
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 137,
+    "question": "Nguồn gốc sâu xa chung của cuộc cách mạng công nghiệp thế kỷ XVIII và cuộc cách mạng khoa học-kĩ thuật hiện nay là gì ?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Để đưa loại người bước sang nền văn minh hậu công nghiệp."
+      },
+      {
+        "label": "B",
+        "text": "Do sự bùng nổ dân số."
+      },
+      {
+        "label": "C",
+        "text": "Yêu cầu của việc chế tạo vũ khí mới."
+      },
+      {
+        "label": "D",
+        "text": "Nhằm đáp ứng nhu cầu vật chất và tinh thần ngày càng cao của con người."
+      }
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 138,
+    "question": "Điểm giống nhau cơ bản giữa Nghị quyết Hội nghị lần thứ 15 (1-1959) và Nghị quyết Hội nghị lần thứ 21 của BCHTW Đảng Lao động Việt Nam (7-1973) là",
+    "choices": [
+      {
+        "label": "A",
+        "text": "thực hiện đấu tranh chính trị, hòa bình là chủ yếu."
+      },
+      {
+        "label": "B",
+        "text": "khởi nghĩa giành chính quyền về tay nhân dân."
+      },
+      {
+        "label": "C",
+        "text": "khẳng định con đường cách mạng bạo lực."
+      },
+      {
+        "label": "D",
+        "text": "kết hợp đấu tranh chính trị, quân sự, ngoại giao."
+      }
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 139,
+    "question": "Thắng lợi của cuộc kháng chiến chống Pháp (1945-1954) đã tác động như thế nào đến tình hình miền Bắc nước ta?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Miền Bắc được hoàn toàn giải phóng, trở thành hậu phương của miền Nam."
+      },
+      {
+        "label": "B",
+        "text": "Miền Bắc được giải phóng, chuyển sang giai đoạn cách mạng xã hội chủ nghĩa."
+      },
+      {
+        "label": "C",
+        "text": "Miền Bắc trở thành hậu phương của cách mạng cả nước."
+      },
+      {
+        "label": "D",
+        "text": "Miền Bắc hoàn thành công cuộc xây dựng chủ nghĩa xã hội."
+      }
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 140,
+    "question": "Từ cuộc đấu tranh ngoại giao sau cách mạng tháng Tám năm 1945, bài học rút ra cho cuộc đấu tranh bảo vệ chủ quyền Tổ quốc hiện nay là",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Nhân nhượng, hòa hoãn với kẻ thù."
+      },
+      {
+        "label": "B",
+        "text": "Luôn mềm dẻo trong đấu tranh với kẻ thù."
+      },
+      {
+        "label": "C",
+        "text": "Linh hoạt, mềm dẻo, nhưng cương quyết giữ vững độc lập dân tộc."
+      },
+      {
+        "label": "D",
+        "text": "Cương quyết trong đấu tranh chống kẻ thù."
+      }
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 141,
+    "question": "Nhận định nào không đúng khi nói về sự thắng lợi của CM tháng Tám 1945?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "CM tháng Tám thành công là sự ăn may, diễn ra trong bối cảnh không còn chính quyền"
+      },
+      {
+        "label": "B",
+        "text": "CM tháng Tám thành công nhờ tinh thần yêu nước, đồng lòng, quyết tâm của toàn Đảng, toàn dân ta"
+      },
+      {
+        "label": "C",
+        "text": "CM tháng Tám thành công nhờ có quá trình chuẩn bị lâu dài, chu đáo, đầy đủ và thời cơ chín muồi"
+      },
+      {
+        "label": "D",
+        "text": "CM tháng Tám thành công nhanh chóng và ít đổ máu vì thời cơ CM đã chín muồi"
+      }
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 142,
+    "question": "Hoạt động nào của Hội Việt Nam Cách mạng Thanh niên trực tiếp làm cho phong trào công nhân Việt Nam phát triển mạnh mẽ hơn, trở thành nòng cốt của phong trào dân tộc trong cả nước?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Xuất bản tác phẩm Đường Kách Mệnh."
+      },
+      {
+        "label": "B",
+        "text": "Thực hiện chủ trương \"vô sản hóa\"."
+      },
+      {
+        "label": "C",
+        "text": "Tổ chức nhiều cuộc bãi công lớn."
+      },
+      {
+        "label": "D",
+        "text": "Mở lớp huấn luyện, đào tạo hội viên."
+      }
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 143,
+    "question": "So với Hiệp hội các quốc gia Đông Nam Á (ASEAN), sự phát triển của Liên Minh châu Âu (EU) có điểm khác biệt gì?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Quá trình hợp tác, mở rộng thành viên diễn ra khá lâu dài."
+      },
+      {
+        "label": "B",
+        "text": "Hạn chế sự can thiệp và chi phối của các cường quốc."
+      },
+      {
+        "label": "C",
+        "text": "Hợp tác, giúp đỡ các nước trong khu vực phát triển kinh tế."
+      },
+      {
+        "label": "D",
+        "text": "Diễn ra quá trình nhất thể hóa trong khuôn khổ khu vực."
+      }
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": 144,
+    "question": "Điểm khác biệt và cũng là nét độc đáo trong hành trình tìm đường cứu nước của Nguyễn Ái Quốc so với những người đi trước là ở",
+    "choices": [
+      {
+        "label": "A",
+        "text": "cách thức tìm đến với chân lí cứu nước.\tB. thời điểm xuất phát, bản lĩnh cá nhân.gfcfdf"
+      },
+      {
+        "label": "C",
+        "text": "ý chí đánh đuổi giặc Pháp, cứu Tổ quốc.\tD. mục đích ra đi tìm con đường cứu nước."
+      }
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 145,
+    "question": "Từ sự sụp đổ của Chủ nghĩa xã hội ở Liên Xô có thể rút ra bài học gì cho công cuộc xây dựng chủ xã hội ở các nước trên thế giới?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Tiến hành đổi mới xây dựng nền kinh tế nhiều thành phần theo định hướng xã hội chủ nghĩa."
+      },
+      {
+        "label": "B",
+        "text": "Tiến hành cải cách hệ thống chính trị và đổi mới tư tưởng."
+      },
+      {
+        "label": "C",
+        "text": "Tiến hành đổi mới toàn diện cho phù hợp với sự thay đổi của tình hình trong nước, thế giới."
+      },
+      {
+        "label": "D",
+        "text": "Phát triển nền kinh tế nhiều thành phần."
+      }
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 146,
+    "question": "Tại sao Chiến tranh lạnh chấm dứt lại mở ra chiều hướng mới để giải quyết hòa bình các vụ tranh chấp và xung đột?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Xu thế hòa bình ngày càng được củng cố trong các mối quan hệ quốc tế."
+      },
+      {
+        "label": "B",
+        "text": "Vai trò của Liên Hợp Quốc được củng cố."
+      },
+      {
+        "label": "C",
+        "text": "Xuất hiện xu thế toàn cầu hóa, khu vực hóa, liên kết khu vực."
+      },
+      {
+        "label": "D",
+        "text": "Liên Xô và Mĩ không còn can thiệp vào công việc nội bộ của các nước, các khu vực."
+      }
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 147,
+    "question": "Nhân tố chủ yếu chi phối quan hệ quốc tế trong phần lớn nửa sau thế kỉ XX là gì?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Xu thế toàn cầu hóa."
+      },
+      {
+        "label": "B",
+        "text": "Cục diện “Chiến tranh lạnh”."
+      },
+      {
+        "label": "C",
+        "text": "Sự ra đời các khối quân sự đối lập."
+      },
+      {
+        "label": "D",
+        "text": "Sự hình thành các liên minh kinh tế."
+      }
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 148,
+    "question": "Trong dòng chảy xuyên suốt của lịch sử nước ta hơn 4000 năm, chân lý và bài học lịch sử lớn nhất mà Đảng và Nhà nước ta luôn  nhất quán trong chính sách phát triển đất nước là:",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Dựng nước phải gắn liền với giữ nước."
+      },
+      {
+        "label": "B",
+        "text": "Luôn bảo vệ độc lập dân tộc."
+      },
+      {
+        "label": "C",
+        "text": "Con đường xã hội chủ nghĩa."
+      },
+      {
+        "label": "D",
+        "text": "Kiên trì sự lãnh đạo duy nhất của Đảng Cộng sản Việt Nam."
+      }
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 149,
+    "question": "Sự khác biệt lớn nhất giữa Chiến tranh lạnh với các cuộc Chiến tranh thế giới đã qua là",
+    "choices": [
+      {
+        "label": "A",
+        "text": "diễn ra trên phạm vi toàn cầu."
+      },
+      {
+        "label": "B",
+        "text": "không có xung đột quân sự trực tiếp giữa Mĩ và Liên Xô."
+      },
+      {
+        "label": "C",
+        "text": "thế giới luôn trong tình trạng căng thẳng."
+      },
+      {
+        "label": "D",
+        "text": "diễn ra dai dẳng, giằng co, không phân thắng bại."
+      }
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": 150,
+    "question": "Khi Trung Quốc đặt giàn khoan 981 ở biển Đông, Việt Nam vận dụng nội dung nào của Hiệp ước Bali 1976 để giải quyết?",
+    "choices": [
+      {
+        "label": "B",
+        "text": "Không can thiệp vào nội bộ của nhau."
+      },
+      {
+        "label": "C",
+        "text": "Giải quyết tranh chấp bằng biện pháp hòa bình."
+      },
+      {
+        "label": "D",
+        "text": "Không sử dụng vũ lực hoặc đe dọa bằng vũ lực đối với nhau."
+      }
+    ],
+    "answer": "C",
+    "explanation": ""
+  }
+]
