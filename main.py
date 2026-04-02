@@ -6,7 +6,7 @@ from datetime import datetime
 from pathlib import Path
 
 # ══ CẤU HÌNH - THAY KEY VÀO ĐÂY ══
-ANTHROPIC_API_KEY = "YOUR_KEY_HERE"
+ANTHROPIC_API_KEY = "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"
 # ══════════════════════════════════
 
 app = FastAPI()
@@ -735,6 +735,88 @@ def get_history(x_user_id: str = Header(default="guest")):
 def clear_history(x_user_id: str = Header(default="guest")):
     save_json(history_path(get_uid(x_user_id)), [])
     return {"message": "Đã xóa lịch sử"}
+@app.get("/files/{file_id}/questions")
+def get_file_questions(file_id: str, x_user_id: str = Header(default="guest")):
+    """🔥 ENDPOINT MỚI: Xem preview câu hỏi"""
+    uid = get_uid(x_user_id)
+    q_file = user_dir(uid) / f"{file_id}.json"
+    if not q_file.exists():
+        raise HTTPException(404, "Không tìm thấy file")
+    questions = load_json(q_file, [])
+    return {"questions": questions, "total": len(questions)}
+
+# ── Question CRUD endpoints ──
+
+class QuestionUpdateBody(BaseModel):
+    question: str
+    choices: list
+    answer: str = ""
+
+@app.put("/files/{file_id}/questions/{q_id}")
+def update_question(file_id: str, q_id: int, body: QuestionUpdateBody,
+                    x_user_id: str = Header(default="guest")):
+    """Cập nhật nội dung một câu hỏi"""
+    uid = get_uid(x_user_id)
+    q_file = user_dir(uid) / f"{file_id}.json"
+    if not q_file.exists():
+        raise HTTPException(404, "Không tìm thấy file")
+    questions = load_json(q_file, [])
+    for i, q in enumerate(questions):
+        if q.get("id") == q_id:
+            questions[i]["question"] = body.question
+            questions[i]["choices"] = body.choices
+            questions[i]["answer"] = body.answer
+            save_json(q_file, questions)
+            _update_index(uid, file_id, questions)
+            return {"message": "Đã cập nhật", "question": questions[i]}
+    raise HTTPException(404, "Không tìm thấy câu hỏi")
+
+@app.delete("/files/{file_id}/questions/{q_id}")
+def delete_question(file_id: str, q_id: int,
+                    x_user_id: str = Header(default="guest")):
+    """Xóa một câu hỏi"""
+    uid = get_uid(x_user_id)
+    q_file = user_dir(uid) / f"{file_id}.json"
+    if not q_file.exists():
+        raise HTTPException(404, "Không tìm thấy file")
+    questions = load_json(q_file, [])
+    new_qs = [q for q in questions if q.get("id") != q_id]
+    if len(new_qs) == len(questions):
+        raise HTTPException(404, "Không tìm thấy câu hỏi")
+    save_json(q_file, new_qs)
+    _update_index(uid, file_id, new_qs)
+    return {"message": "Đã xóa câu hỏi"}
+
+class NewQuestionBody(BaseModel):
+    question: str
+    choices: list
+    answer: str = ""
+
+@app.post("/files/{file_id}/questions")
+def add_question(file_id: str, body: NewQuestionBody,
+                 x_user_id: str = Header(default="guest")):
+    """Thêm câu hỏi mới vào bộ đề"""
+    uid = get_uid(x_user_id)
+    q_file = user_dir(uid) / f"{file_id}.json"
+    if not q_file.exists():
+        raise HTTPException(404, "Không tìm thấy file")
+    questions = load_json(q_file, [])
+    max_id = max((q.get("id", 0) for q in questions), default=0)
+    new_q = {"id": max_id + 1, "question": body.question,
+              "choices": body.choices, "answer": body.answer}
+    questions.append(new_q)
+    save_json(q_file, questions)
+    _update_index(uid, file_id, questions)
+    return {"message": "Đã thêm câu hỏi", "question": new_q}
+
+def _update_index(uid, file_id, questions):
+    """Helper: cập nhật count & with_answer trong files_index"""
+    index = load_json(files_index_path(uid), {})
+    if file_id in index:
+        index[file_id]["count"] = len(questions)
+        index[file_id]["with_answer"] = sum(
+            1 for q in questions if q.get("answer") in list("ABCD"))
+        save_json(files_index_path(uid), index)
 
 # ── Debug endpoint ──
 @app.post("/debug/parse")
