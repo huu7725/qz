@@ -217,6 +217,43 @@ body{background:var(--bg);overflow:hidden}
 .ai-status-box.ready{background:#d1fae5;border:1px solid #a7f3d0}
 .ai-status-box.notready{background:#fee2e2;border:1px solid #fecaca}
 .ai-status-box.loading{background:#f3f4f6}
+/* ── PREVIEW / EDIT MODAL ── */
+.qpm{position:fixed;inset:0;z-index:180;background:rgba(30,27,75,.55);backdrop-filter:blur(4px);display:none;align-items:center;justify-content:center;padding:16px}
+.qpm.on{display:flex}
+.qpm-inner{background:#fff;border-radius:20px;width:min(820px,96vw);max-height:92vh;display:flex;flex-direction:column;box-shadow:0 24px 80px rgba(0,0,0,.24);overflow:hidden}
+.qpm-hd{padding:18px 20px 12px;border-bottom:1px solid var(--bd);flex-shrink:0;display:flex;align-items:flex-start;gap:12px}
+.qpm-hd-info{flex:1}
+.qpm-title{font-family:'Outfit',sans-serif;font-size:16px;font-weight:800;color:var(--t)}
+.qpm-sub{font-size:11px;color:var(--t3);margin-top:2px}
+.qpm-search{padding:8px 14px;border-radius:9px;border:1.5px solid var(--bd);font-size:13px;font-family:'Plus Jakarta Sans',sans-serif;color:var(--t);outline:none;width:180px;transition:border .15s}
+.qpm-search:focus{border-color:var(--p)}
+.qpm-body{display:flex;flex:1;overflow:hidden;min-height:0}
+.qpm-list{flex:0 0 280px;border-right:1px solid var(--bd);overflow-y:auto;padding:8px}
+.qpm-list::-webkit-scrollbar{width:3px}.qpm-list::-webkit-scrollbar-thumb{background:#e5e7eb;border-radius:99px}
+.qpi{padding:10px 12px;border-radius:10px;cursor:pointer;transition:all .15s;margin-bottom:3px;border:1.5px solid transparent}
+.qpi:hover{background:var(--bg)}.qpi.on{background:var(--p3);border-color:var(--p)}
+.qpi-num{font-size:10px;font-weight:700;color:var(--t3);margin-bottom:3px}
+.qpi-txt{font-size:12px;font-weight:600;color:var(--t);line-height:1.4;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.qpi.on .qpi-txt{color:var(--p)}
+.qpi-ans{display:inline-block;margin-top:4px;padding:1px 8px;border-radius:99px;font-size:10px;font-weight:700}
+.qpi-ans.ok{background:#d1fae5;color:#065f46}.qpi-ans.no{background:#fef3c7;color:#92400e}
+.qpm-edit{flex:1;overflow-y:auto;padding:20px;min-width:0}
+.qpm-edit::-webkit-scrollbar{width:3px}.qpm-edit::-webkit-scrollbar-thumb{background:#e5e7eb;border-radius:99px}
+.qpm-empty{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;color:var(--t3);gap:10px;font-size:13px;text-align:center;padding:30px}
+.qef-lbl{font-size:11px;font-weight:700;color:var(--t3);letter-spacing:.05em;margin-bottom:5px;display:block}
+.qef-ta{width:100%;padding:10px 13px;border-radius:10px;border:1.5px solid var(--bd);font-size:13px;font-family:'Plus Jakarta Sans',sans-serif;color:var(--t);outline:none;resize:vertical;line-height:1.55;min-height:80px;transition:border .15s}
+.qef-ta:focus{border-color:var(--p)}
+.qef-inp{width:100%;padding:9px 12px;border-radius:9px;border:1.5px solid var(--bd);font-size:13px;font-family:'Plus Jakarta Sans',sans-serif;color:var(--t);outline:none;transition:border .15s}
+.qef-inp:focus{border-color:var(--p)}
+.qef-choice{display:flex;align-items:center;gap:8px;margin-bottom:8px}
+.qef-radio{accent-color:var(--p);width:15px;height:15px;cursor:pointer;flex-shrink:0;margin:0}
+.qef-clbl{font-size:12px;font-weight:800;color:var(--t);width:22px;flex-shrink:0}
+.qef-grp{margin-bottom:16px}
+.qpm-ftr{padding:12px 16px;border-top:1px solid var(--bd);flex-shrink:0;display:flex;gap:8px;align-items:center;background:#fafafa}
+.qpm-loading{display:flex;align-items:center;justify-content:center;flex:1;color:var(--t3);font-size:13px;gap:8px}
+.spin{animation:qspin .8s linear infinite;display:inline-block;font-size:18px}
+@keyframes qspin{to{transform:rotate(360deg)}}
+.new-q-form{background:var(--bg);border-radius:12px;padding:16px;margin-bottom:16px}
 </style>
 </head>
 <body>
@@ -316,6 +353,37 @@ body{background:var(--bg);overflow:hidden}
     <div style="display:flex;gap:9px">
       <button class="bp" style="flex:1" onclick="saveAI()">Lưu</button>
       <button class="bo" onclick="cm('aim')">Đóng</button>
+    </div>
+  </div>
+</div>
+
+<!-- Preview / Edit Questions Modal -->
+<div class="qpm" id="qpm" onclick="if(event.target===this)cm('qpm')">
+  <div class="qpm-inner">
+    <div class="qpm-hd">
+      <div class="qpm-hd-info">
+        <div class="qpm-title" id="qpm-title">Xem & Chỉnh sửa câu hỏi</div>
+        <div class="qpm-sub" id="qpm-sub">Đang tải...</div>
+      </div>
+      <input class="qpm-search" id="qpm-search" placeholder="🔍 Tìm câu hỏi..." oninput="filterQList(this.value)">
+      <button class="bo" style="padding:7px 13px;font-size:12px;flex-shrink:0" onclick="cm('qpm')">✕ Đóng</button>
+    </div>
+    <div class="qpm-body">
+      <div class="qpm-list" id="qpm-list">
+        <div class="qpm-loading"><span class="spin">⏳</span> Đang tải...</div>
+      </div>
+      <div class="qpm-edit" id="qpm-edit">
+        <div class="qpm-empty">
+          <div style="font-size:36px">👈</div>
+          <div>Chọn một câu hỏi để chỉnh sửa</div>
+          <div style="font-size:12px;color:var(--t3)">hoặc thêm câu mới bên dưới</div>
+        </div>
+      </div>
+    </div>
+    <div class="qpm-ftr">
+      <button class="bp" style="padding:8px 16px;font-size:12px" onclick="showNewQForm()">＋ Thêm câu mới</button>
+      <div style="flex:1"></div>
+      <div style="font-size:12px;color:var(--t3)" id="qpm-count-lbl"></div>
     </div>
   </div>
 </div>
@@ -430,7 +498,7 @@ async function clh3(){if(!confirm("Xóa toàn bộ lịch sử?"))return;await f
 // ── UPLOAD ──
 function rup(m){
   const s=S.stats,files=s.files||[];
-  const fcards=files.length>0?`<div style="margin-top:18px"><div class="ct" style="margin-bottom:14px">CÁC ĐỀ ĐÃ TẢI LÊN</div><div class="fgrid">${files.map((f,i)=>{const pct=f.count>0?Math.round(f.with_answer/f.count*100):0,isAI=f.parse_method==='vision_ai';return`<div class="fcard ${S.sf===f.id?'sel':''}" onclick="selF('${f.id}')"><div class="fc-h"><div class="fc-ic ${fc(i)}">${fi2(i)}</div><div><div class="fc-nm">${f.name}</div><div class="fc-dt">📅 ${f.uploaded_at}</div></div></div><div class="fc-st"><span class="fc-s">${f.count} câu</span><span class="fc-s ok">${f.with_answer} đáp án</span><span class="fc-s" style="background:#ede9fe;color:var(--p)">${pct}%</span>${isAI?'<span class="fc-s ai">🤖 AI</span>':''}${pct<50&&!isAI?'<span class="fc-s warn">⚠ Ít đáp án</span>':''}</div><div class="fc-pb"><div class="fc-bar"><div class="fc-fill" style="width:${pct}%"></div></div></div><div class="fc-act"><button class="fc-btn go" onclick="event.stopPropagation();startF('${f.id}')">▶ Làm bài</button><button class="fc-btn dl" onclick="event.stopPropagation();delF('${f.id}','${f.name}')">🗑</button></div></div>`;}).join('')}</div></div>`:'<div style="text-align:center;padding:32px;color:var(--t3)"><div style="font-size:40px;margin-bottom:12px">📂</div>Chưa có đề nào</div>';
+  const fcards=files.length>0?`<div style="margin-top:18px"><div class="ct" style="margin-bottom:14px">CÁC ĐỀ ĐÃ TẢI LÊN</div><div class="fgrid">${files.map((f,i)=>{const pct=f.count>0?Math.round(f.with_answer/f.count*100):0,isAI=f.parse_method==='vision_ai';return`<div class="fcard ${S.sf===f.id?'sel':''}" onclick="selF('${f.id}')"><div class="fc-h"><div class="fc-ic ${fc(i)}">${fi2(i)}</div><div><div class="fc-nm">${f.name}</div><div class="fc-dt">📅 ${f.uploaded_at}</div></div></div><div class="fc-st"><span class="fc-s">${f.count} câu</span><span class="fc-s ok">${f.with_answer} đáp án</span><span class="fc-s" style="background:#ede9fe;color:var(--p)">${pct}%</span>${isAI?'<span class="fc-s ai">🤖 AI</span>':''}${pct<50&&!isAI?'<span class="fc-s warn">⚠ Ít đáp án</span>':''}</div><div class="fc-pb"><div class="fc-bar"><div class="fc-fill" style="width:${pct}%"></div></div></div><div class="fc-act"><button class="fc-btn go" onclick="event.stopPropagation();startF('${f.id}')">▶ Làm bài</button><button class="fc-btn ai-btn" onclick="event.stopPropagation();openPreview('${f.id}','${f.name.replace(/'/g,"\\'")}')">👁 Xem</button><button class="fc-btn dl" onclick="event.stopPropagation();delF('${f.id}','${f.name}')">🗑</button></div></div>`;}).join('')}</div></div>`:'<div style="text-align:center;padding:32px;color:var(--t3)"><div style="font-size:40px;margin-bottom:12px">📂</div>Chưa có đề nào</div>';
   m.innerHTML=`<div class="page"><div class="tb"><div><div class="pt">Tệp đã tải</div><div class="ps">Mỗi file = 1 đề riêng biệt</div></div></div>
   <div class="ai-banner" style="margin-bottom:16px"><div style="font-size:26px;flex-shrink:0">🤖</div><div style="flex:1"><div style="color:#fff;font-size:13px;font-weight:700;margin-bottom:3px">Claude AI Vision</div><div style="color:rgba(255,255,255,.6);font-size:12px">${s.ai_available?'Đang hoạt động · Tự động đọc bảng ô tô màu':'Chưa kích hoạt · Cấu hình key trong main.py'}</div></div><div class="ai-badge ${s.ai_available?'on':'off'}" onclick="openAI()">${s.ai_available?'● Hoạt động':'⚙ Trạng thái'}</div></div>
   <div class="sr" style="grid-template-columns:1fr 1fr;margin-bottom:18px"><div class="sc"><div class="sic ip">📚</div><div><div class="sn2" style="color:var(--p)">${s.total_questions}</div><div class="sl2">Tổng câu hỏi</div></div></div><div class="sc"><div class="sic ig">📂</div><div><div class="sn2" style="color:var(--g)">${files.length}</div><div class="sl2">Đề thi</div></div></div></div>
@@ -527,6 +595,202 @@ function rset(m){
   </div></div>`;
 }
 function tgs3(){S.an=!S.an;localStorage.setItem("cq_an",S.an);$("tg-an")?.classList.toggle("on",S.an);}
+
+// ── PREVIEW & EDIT QUESTIONS ──
+let QPM = { fileId: '', fileName: '', questions: [], filtered: [], selIdx: null, dirty: false };
+
+async function openPreview(fileId, fileName) {
+  QPM = { fileId, fileName, questions: [], filtered: [], selIdx: null, dirty: false };
+  $('qpm-title').textContent = '📋 ' + fileName;
+  $('qpm-sub').textContent = 'Đang tải câu hỏi...';
+  $('qpm-list').innerHTML = '<div class="qpm-loading"><span class="spin">⏳</span> Đang tải...</div>';
+  $('qpm-edit').innerHTML = '<div class="qpm-empty"><div style="font-size:36px">👈</div><div>Chọn một câu hỏi để chỉnh sửa</div></div>';
+  $('qpm-count-lbl').textContent = '';
+  $('qpm-search').value = '';
+  om('qpm');
+  try {
+    const r = await fetch(`${API}/files/${encodeURIComponent(fileId)}/questions`, {headers:{"x-user-id":S.user?.email||"guest"}});
+    if (!r.ok) throw new Error('Lỗi tải');
+    const d = await r.json();
+    QPM.questions = d.questions || [];
+    QPM.filtered = [...QPM.questions];
+    renderQList();
+    $('qpm-sub').textContent = `${QPM.questions.length} câu hỏi · ${QPM.questions.filter(q=>q.answer).length} có đáp án`;
+    $('qpm-count-lbl').textContent = `${QPM.questions.length} câu`;
+  } catch(e) {
+    $('qpm-list').innerHTML = '<div class="qpm-loading" style="color:var(--r)">❌ Không tải được</div>';
+  }
+}
+
+function filterQList(val) {
+  const v = val.trim().toLowerCase();
+  QPM.filtered = v ? QPM.questions.filter(q => q.question.toLowerCase().includes(v) || (q.choices||[]).some(c=>c.text.toLowerCase().includes(v))) : [...QPM.questions];
+  renderQList();
+}
+
+function renderQList() {
+  const el = $('qpm-list');
+  if (!QPM.filtered.length) { el.innerHTML = '<div style="text-align:center;padding:20px;color:var(--t3);font-size:12px">Không tìm thấy</div>'; return; }
+  el.innerHTML = QPM.filtered.map((q, i) => {
+    const hasAns = q.answer && 'ABCD'.includes(q.answer);
+    const realIdx = QPM.questions.indexOf(q);
+    return `<div class="qpi ${QPM.selIdx===realIdx?'on':''}" onclick="selectQ(${realIdx})">
+      <div class="qpi-num">Câu ${realIdx+1}</div>
+      <div class="qpi-txt">${q.question}</div>
+      <span class="qpi-ans ${hasAns?'ok':'no'}">${hasAns?'✓ '+q.answer:'Chưa có đáp án'}</span>
+    </div>`;
+  }).join('');
+}
+
+function selectQ(idx) {
+  if (QPM.dirty && !confirm('Bạn có thay đổi chưa lưu. Tiếp tục?')) return;
+  QPM.selIdx = idx;
+  QPM.dirty = false;
+  renderQList();
+  renderEditPanel();
+}
+
+function renderEditPanel() {
+  const q = QPM.questions[QPM.selIdx];
+  if (!q) return;
+  const labels = ['A','B','C','D'];
+  const choiceRows = labels.map(lbl => {
+    const ch = (q.choices||[]).find(c=>c.label===lbl) || {label:lbl,text:''};
+    return `<div class="qef-choice">
+      <input type="radio" class="qef-radio" name="ans-radio" value="${lbl}" id="r${lbl}" ${q.answer===lbl?'checked':''} onchange="QPM.dirty=true">
+      <label class="qef-clbl" for="r${lbl}">${lbl}</label>
+      <input class="qef-inp" id="ch-${lbl}" value="${ch.text.replace(/"/g,'&quot;')}" placeholder="Đáp án ${lbl}..." oninput="QPM.dirty=true">
+    </div>`;
+  }).join('');
+  $('qpm-edit').innerHTML = `
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:14px">
+      <div style="font-size:13px;font-weight:700;color:var(--p)">Câu ${QPM.selIdx+1}</div>
+      <button class="bd2" style="padding:5px 12px;font-size:11px" onclick="deleteQ(${q.id})">🗑 Xóa câu này</button>
+    </div>
+    <div class="qef-grp">
+      <label class="qef-lbl">NỘI DUNG CÂU HỎI</label>
+      <textarea class="qef-ta" id="q-text" oninput="QPM.dirty=true">${q.question}</textarea>
+    </div>
+    <div class="qef-grp">
+      <label class="qef-lbl">CÁC ĐÁP ÁN (chọn radio = đáp án đúng)</label>
+      ${choiceRows}
+    </div>
+    <div style="display:flex;gap:8px;margin-top:6px">
+      <button class="bp" style="flex:1;padding:9px" onclick="saveQ()">💾 Lưu thay đổi</button>
+      <button class="bo" style="padding:9px 16px" onclick="cancelEdit()">Huỷ</button>
+    </div>`;
+}
+
+async function saveQ() {
+  const q = QPM.questions[QPM.selIdx];
+  if (!q) return;
+  const question = $('q-text').value.trim();
+  if (!question) { tst('Câu hỏi không được trống','err'); return; }
+  const labels = ['A','B','C','D'];
+  const choices = labels.map(lbl => ({label:lbl, text:($(`ch-${lbl}`)?.value||'').trim()})).filter(c=>c.text);
+  const ansEl = document.querySelector('input[name="ans-radio"]:checked');
+  const answer = ansEl ? ansEl.value : '';
+  try {
+    const r = await fetch(`${API}/files/${encodeURIComponent(QPM.fileId)}/questions/${q.id}`, {
+      method:'PUT', headers:{"Content-Type":"application/json","x-user-id":S.user?.email||"guest"},
+      body: JSON.stringify({question, choices, answer})
+    });
+    if (!r.ok) throw new Error((await r.json()).detail || 'Lỗi');
+    QPM.questions[QPM.selIdx] = {...q, question, choices, answer};
+    QPM.filtered = QPM.questions.filter(qq => {
+      const v = $('qpm-search').value.trim().toLowerCase();
+      return !v || qq.question.toLowerCase().includes(v) || (qq.choices||[]).some(c=>c.text.toLowerCase().includes(v));
+    });
+    QPM.dirty = false;
+    tst('Đã lưu câu hỏi ✓');
+    $('qpm-sub').textContent = `${QPM.questions.length} câu hỏi · ${QPM.questions.filter(q=>q.answer).length} có đáp án`;
+    renderQList();
+    renderEditPanel();
+    await lst();
+  } catch(e) { tst(e.message || 'Lỗi lưu', 'err'); }
+}
+
+function cancelEdit() {
+  QPM.dirty = false;
+  QPM.selIdx = null;
+  renderQList();
+  $('qpm-edit').innerHTML = '<div class="qpm-empty"><div style="font-size:36px">👈</div><div>Chọn một câu hỏi để chỉnh sửa</div></div>';
+}
+
+async function deleteQ(qId) {
+  if (!confirm('Xóa câu hỏi này?')) return;
+  try {
+    const r = await fetch(`${API}/files/${encodeURIComponent(QPM.fileId)}/questions/${qId}`, {
+      method:'DELETE', headers:{"x-user-id":S.user?.email||"guest"}
+    });
+    if (!r.ok) throw new Error('Lỗi xóa');
+    QPM.questions = QPM.questions.filter(q => q.id !== qId);
+    QPM.filtered = [...QPM.questions];
+    QPM.selIdx = null;
+    QPM.dirty = false;
+    tst('Đã xóa câu hỏi');
+    $('qpm-sub').textContent = `${QPM.questions.length} câu hỏi · ${QPM.questions.filter(q=>q.answer).length} có đáp án`;
+    $('qpm-count-lbl').textContent = `${QPM.questions.length} câu`;
+    renderQList();
+    $('qpm-edit').innerHTML = '<div class="qpm-empty"><div style="font-size:36px">👈</div><div>Chọn một câu hỏi để chỉnh sửa</div></div>';
+    await lst();
+  } catch(e) { tst('Lỗi xóa câu hỏi', 'err'); }
+}
+
+function showNewQForm() {
+  QPM.selIdx = null;
+  QPM.dirty = false;
+  renderQList();
+  const labels = ['A','B','C','D'];
+  const choiceRows = labels.map(lbl => `<div class="qef-choice">
+    <input type="radio" class="qef-radio" name="new-radio" value="${lbl}" id="nr${lbl}">
+    <label class="qef-clbl" for="nr${lbl}">${lbl}</label>
+    <input class="qef-inp" id="nch-${lbl}" placeholder="Đáp án ${lbl}...">
+  </div>`).join('');
+  $('qpm-edit').innerHTML = `
+    <div style="font-size:13px;font-weight:700;color:var(--g);margin-bottom:14px">＋ Thêm câu hỏi mới</div>
+    <div class="qef-grp">
+      <label class="qef-lbl">NỘI DUNG CÂU HỎI</label>
+      <textarea class="qef-ta" id="nq-text" placeholder="Nhập câu hỏi..."></textarea>
+    </div>
+    <div class="qef-grp">
+      <label class="qef-lbl">CÁC ĐÁP ÁN (chọn radio = đáp án đúng)</label>
+      ${choiceRows}
+    </div>
+    <div style="display:flex;gap:8px;margin-top:6px">
+      <button class="bp" style="flex:1;padding:9px;background:var(--g)" onclick="submitNewQ()">＋ Thêm câu hỏi</button>
+      <button class="bo" style="padding:9px 16px" onclick="cancelEdit()">Huỷ</button>
+    </div>`;
+}
+
+async function submitNewQ() {
+  const question = $('nq-text').value.trim();
+  if (!question) { tst('Câu hỏi không được trống', 'err'); return; }
+  const labels = ['A','B','C','D'];
+  const choices = labels.map(lbl => ({label:lbl, text:($(`nch-${lbl}`)?.value||'').trim()})).filter(c=>c.text);
+  if (choices.length < 2) { tst('Cần ít nhất 2 đáp án', 'err'); return; }
+  const ansEl = document.querySelector('input[name="new-radio"]:checked');
+  const answer = ansEl ? ansEl.value : '';
+  try {
+    const r = await fetch(`${API}/files/${encodeURIComponent(QPM.fileId)}/questions`, {
+      method:'POST', headers:{"Content-Type":"application/json","x-user-id":S.user?.email||"guest"},
+      body: JSON.stringify({question, choices, answer})
+    });
+    if (!r.ok) throw new Error((await r.json()).detail || 'Lỗi');
+    const d = await r.json();
+    QPM.questions.push(d.question);
+    QPM.filtered = [...QPM.questions];
+    tst('Đã thêm câu hỏi mới ✓');
+    $('qpm-sub').textContent = `${QPM.questions.length} câu hỏi · ${QPM.questions.filter(q=>q.answer).length} có đáp án`;
+    $('qpm-count-lbl').textContent = `${QPM.questions.length} câu`;
+    QPM.selIdx = QPM.questions.length - 1;
+    renderQList();
+    renderEditPanel();
+    // Scroll list to bottom
+    const list = $('qpm-list'); list.scrollTop = list.scrollHeight;
+    await lst();
+  } catch(e) { tst(e.message || 'Lỗi thêm câu', 'err'); }
+}
 
 (()=>{const u=localStorage.getItem("cq_u");if(u){try{S.user=JSON.parse(u);$("aw").style.display="none";$("app").classList.add("on");lst().then(()=>lh().then(rp2));uui();}catch{localStorage.removeItem("cq_u");}}})();
 </script>
